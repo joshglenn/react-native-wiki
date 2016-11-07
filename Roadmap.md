@@ -14,9 +14,9 @@ The React Native roadmap can be broken down into three key priorities: adding fu
     * A better library for letting developers control orientation in an app. This has been a common area of feedback and we think we can improve the experience here.
 * Complete Apple TV support. Owners: [douglowder](https://twitter.com/douglowder). ETA: January
     * The focus engine support needed for Apple TV to work is still in review.  In addition, we still need to handle test automation for the Apple TV focus engine support, making other projects in the Examples directory (besides UIExplorer) work on Apple TV, generation of new Apple TV projects in react-native-cli, and making the packager (and Javascript layer) aware if a bundle is intended to run on Apple TV.
-* A standard navigation library for hybrid apps. Owners: [leland](https://twitter.com/intelligibabble). ETA: February
+* A standard navigation library for hybrid apps. Owners: [Leland Richardson](https://twitter.com/intelligibabble). ETA: February
     * A navigation library specifically designed for applications that are part native, part React Native. We are pretty sure the right solution involves a different navigation library. Once this is released and stable, we can deprecate NavigatorIOS.
-* Better maps. Owners: [leland](https://twitter.com/intelligibabble). ETA: March
+* Better maps. Owners: [Leland Richardson](https://twitter.com/intelligibabble). ETA: March
     * Since the plan is to make the react-native-maps module the officially recommended maps solution for the React Native community, we need more features to be considered complete. We want iOS support for MapKit, Google Maps, and Mapbox and Android support for Google maps and Mapbox. In particular this should improve quality in China.
 
 ## Stability
