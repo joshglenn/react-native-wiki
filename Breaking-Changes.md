@@ -1,3 +1,9 @@
+This is a **complete** list of breaking changes in each release of React Native.
+
+This document serves two goals:
+- **Easier upgrades for people**. The contents of this document are printed by `react-native upgrade` so that when people upgrade their to a new version of React Native they have clear instructions on how to modify their code.
+- **Tracking** the number of breaking changes over time, understanding the motivation behind each of them and eventually having a plan to getting to zero breaking changes.
+
 # 0.39
 
 Add breaking changes here
