@@ -58,6 +58,6 @@ Add breaking changes here
 
 - Commit: Fix modal resizing on keyboard show ([404b7c](https://github.com/facebook/react-native/commit/404b7cc069471cc8e0277d398751305665f0d3e1))
 - Who does this affect: Any product developer, Android
-- **How to migrate (shown by `react-native upgrade`)**: No need to change code. Modals will now resize on keyboard show by default, since that is the default correct Android behavior.
+- **How to migrate (shown by `react-native upgrade`)**: No need to change your code. Modals will now resize on keyboard show by default, since that is the default correct Android behavior.
 - Why make this breaking change: Resizing is the correct behavior on Android.
 
