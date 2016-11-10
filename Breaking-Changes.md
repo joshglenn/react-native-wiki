@@ -33,3 +33,10 @@ Add breaking changes here
 - Who does this affect: Any product developer
 - **Exact steps to migrate (shown by `react-native upgrade`)**: Don't pass a callback to `Clipboard.getString()` and `NetInfo.isConnectionExpensive()`. Both methods return a `Promise` now, use the `Promise`.
 - Why make this breaking change: A long time ago we didn't a way to return Promises from native to JS so we used to use callbacks. Now Promises should be used everywhere.
+
+# 0.36
+
+- Commit, title: 
+- Who does this affect:
+- How to migrate:
+- Why make this breaking change:
