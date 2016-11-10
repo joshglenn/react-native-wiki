@@ -23,20 +23,27 @@ Add breaking changes here
 # 0.37
 
 - Commit: Remove deprecated APIs and modules ([fa5ad8](https://github.com/facebook/react-native/commit/fa5ad85252be9e5e5a8f04d705463e7ba4cb85e3))
-- Who does this affect: Product developers
+- Who does this affect: Any product developer
 - **Exact steps to migrate (shown by `react-native upgrade`)**: Import the following modules instead. The API of the new ones should be the same of very similar: AppStateIOS -> AppState, ActivityIndicatorIOS -> Activity, IntentAndroid, LinkingIOS -> Linking, SliderIOS -> Slider, SwitchAndroid, SwitchIOS -> Switch
 - Why make this breaking change: These old APIs were designed a long time ago when we didn't think about Android and platform parity at all. We do now :)
 
 ---
 
 - Commit: Remove callback support from Clipboard and NetInfo ([fa5ad8](https://github.com/facebook/react-native/commit/fa5ad85252be9e5e5a8f04d705463e7ba4cb85e3))
-- Who does this affect: Product developers
+- Who does this affect: Any product developer
 - **Exact steps to migrate (shown by `react-native upgrade`)**: Don't pass a callback to `Clipboard.getString()` and `NetInfo.isConnectionExpensive()`. Both methods return a `Promise` now, use the `Promise`.
 - Why make this breaking change: A long time ago we didn't a way to return Promises from native to JS so we used to use callbacks. Now Promises should be used everywhere.
 
 # 0.36
 
 - Commit: Default scrollview to flexShrink to allow views below it ([c43a3f](https://github.com/facebook/react-native/commit/c43a3f5d8412eb0dfe894a192f15efa9c41ab318))
-- Who does this affect: Product developers
+- Who does this affect: Any product developer
 - How to migrate: ?
-- Why make this breaking change: Some layouts were broken due to having views below the scrollview
+- Why make this breaking change: Some layouts were broken due to having views below the ScrollView.
+
+- Commit: Fix unconstraint sizing in main axis ([0a9b6b](https://github.com/facebook/react-native/commit/0a9b6bedb312eba22c5bc11498b1cc41363e5f27))
+- Who does this affect: Any product developer
+- How to migrate: Most of your layouts will continue to function as before however some of them might not. Typically this is due to having a `flex: 1` which after this change may collapse your component to take zero size due to the implicit `flexBasis: 0` now being correctly treated. Removing the bad `flex: 1` style or changing it to `flexGrow: 1` should solve most if not all layout issues your see after this change.
+- Why make this breaking change: The previous behavior was wrong.
+
+
