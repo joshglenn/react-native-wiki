@@ -8,10 +8,10 @@ This document serves two goals:
 
 Add breaking changes here
 
-- Commit:
-- Who does this affect:
-- **How to migrate (shown by `react-native upgrade`)**:
-- Why make this breaking change:
+- Commit: D4157971 (not landed yet, need changes of product code at fb)
+- Who does this affect: Any product developer
+- **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
+- Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 
 # 0.38
 
