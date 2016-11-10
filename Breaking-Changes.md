@@ -1,4 +1,4 @@
-This is a **complete** list of breaking changes in each release of React Native.
+This is a **complete** list of breaking changes in each release of React Native, compiled **as commits land**, not before the branch cut when writing release notes. The reason is so that we can get enough information from owners right when they're working on the change.
 
 This document serves two goals:
 - **Easier upgrades for people**. The contents of this document are printed by `react-native upgrade` so that when people upgrade their to a new version of React Native they have clear instructions on how to modify their code.
