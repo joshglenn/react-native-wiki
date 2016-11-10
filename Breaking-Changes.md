@@ -52,13 +52,10 @@ Add breaking changes here
 
 # 0.36
 
-3 breaking changes:
+2 breaking changes:
 
-- Commit: Default scrollview to flexShrink to allow views below it ([c43a3f](https://github.com/facebook/react-native/commit/c43a3f5d8412eb0dfe894a192f15efa9c41ab318)) - @emilsjolander
-- Who does this affect: Any product developer
-- **How to migrate (shown by `react-native upgrade`)**: ?
-- Why make this breaking change: Some layouts were broken due to having views below the ScrollView.
-- Severity (people affected x amount of work for them): ?
+- Commit: Default scrollview to flexShrink to allow views below it ([c43a3f](https://github.com/facebook/react-native/commit/c43a3f5d8412eb0dfe894a192f15efa9c41ab318)) - @emilsjolander.
+- Fixes a bug: Some layouts were broken due to having views below the ScrollView. Not sure if breaking change, we only know of product code this fixed, not broke.
 
 ---
 
