@@ -8,10 +8,19 @@ This document serves two goals:
 
 Add breaking changes here
 
+- Commit:
+- Who does this affect:
+- **How to migrate (shown by `react-native upgrade`)**:
+- Why make this breaking change: 
+- Severity (people affected x amount of work for them):
+
+---
+
 - Commit: D4157971 (not landed yet, need changes to product code at fb)
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
 - Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
+- Severity (people affected x amount of work for them): ?
 
 # 0.38
 
@@ -21,6 +30,7 @@ Add breaking changes here
 - Who does this affect: People writing 3rd-party modules, iOS
 - **How to migrate (shown by `react-native upgrade`)**: Declare properties of type `RCTDirectEventBlock` instead
 - Why make this breaking change: The new API is better and we don't want to keep the old one around.
+- Severity (people affected x amount of work for them): Low
 
 # 0.37
 
@@ -30,6 +40,7 @@ Add breaking changes here
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: Import the following modules instead. The API of the new ones should be the same of very similar: AppStateIOS -> AppState, ActivityIndicatorIOS -> Activity, IntentAndroid, LinkingIOS -> Linking, SliderIOS -> Slider, SwitchAndroid, SwitchIOS -> Switch
 - Why make this breaking change: These old APIs were designed a long time ago when we didn't think about Android and platform parity at all. We do now :)
+- Severity (people affected x amount of work for them): Medium
 
 ---
 
@@ -37,6 +48,7 @@ Add breaking changes here
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: Don't pass a callback to `Clipboard.getString()` and `NetInfo.isConnectionExpensive()`. Both methods return a `Promise` now, use the `Promise`.
 - Why make this breaking change: A long time ago we didn't a way to return Promises from native to JS so we used to use callbacks. Now Promises should be used everywhere.
+- Severity (people affected x amount of work for them): Low
 
 # 0.36
 
@@ -46,6 +58,7 @@ Add breaking changes here
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: ?
 - Why make this breaking change: Some layouts were broken due to having views below the ScrollView.
+- Severity (people affected x amount of work for them): ?
 
 ---
 
@@ -53,6 +66,7 @@ Add breaking changes here
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: Most of your layouts will continue to function as before however some of them might not. Typically this is due to having a `flex: 1` which after this change may collapse your component to take zero size due to the implicit `flexBasis: 0` now being correctly treated. Removing the bad `flex: 1` style or changing it to `flexGrow: 1` should solve most if not all layout issues your see after this change.
 - Why make this breaking change: The previous behavior was wrong.
+- Severity (people affected x amount of work for them): Medium
 
 ---
 
@@ -60,4 +74,4 @@ Add breaking changes here
 - Who does this affect: Any product developer, Android
 - **How to migrate (shown by `react-native upgrade`)**: No need to change your code. Modals will now resize on keyboard show by default, since that is the default correct Android behavior.
 - Why make this breaking change: Resizing is the correct behavior on Android.
-
+- Severity (people affected x amount of work for them): Low
