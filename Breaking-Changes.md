@@ -22,6 +22,13 @@ Add breaking changes here
 - Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 - Severity (people affected x amount of work for them): ?
 
+
+### Android: End2End "Monkey User" tests now have dev menu disabled
+- **Commit**: https://github.com/facebook/react-native/pull/10901
+- **Who does this affect:** Integration/End-To-End Testers on Android
+- **How to migrate:** Use another mechanism if your e2e test requires the dev menu
+- **Severity:** Low
+
 # 0.38
 
 1 breaking change:
