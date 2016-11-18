@@ -37,8 +37,6 @@ This document serves two goals:
 
 # 0.37
 
-2 breaking changes:
-
 ### Remove deprecated APIs and modules ([fa5ad8](https://github.com/facebook/react-native/commit/fa5ad85252be9e5e5a8f04d705463e7ba4cb85e3)) - @satya164
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: Import the following modules instead. The API of the new ones should be the same of very similar: AppStateIOS -> AppState, ActivityIndicatorIOS -> Activity, IntentAndroid, LinkingIOS -> Linking, SliderIOS -> Slider, SwitchAndroid, SwitchIOS -> Switch
@@ -52,8 +50,6 @@ This document serves two goals:
 - Severity (people affected x amount of work for them): Low
 
 # 0.36
-
-2 breaking changes:
 
 ### Default scrollview to flexShrink to allow views below it ([c43a3f](https://github.com/facebook/react-native/commit/c43a3f5d8412eb0dfe894a192f15efa9c41ab318)) - @emilsjolander.
 - Fixes a bug: Some layouts were broken due to having views below the ScrollView. Not sure if breaking change, we only know of product code this fixed, not broke.
