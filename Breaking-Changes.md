@@ -27,7 +27,7 @@ Add breaking changes here
 - Commit: Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/pull/10901) - @ridgern
 - Who does this affect: Integration/End-To-End Testers on Android
 - **How to migrate**: Use another mechanism if your e2e test requires the dev menu.
-- Severity:** Low
+- Severity: Low
 
 # 0.38
 
