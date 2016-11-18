@@ -8,11 +8,11 @@ This document serves two goals:
 
 Add breaking changes here
 
-- Commit:
-- Who does this affect:
+- **Commit**:
+- **Who does this affect**:
 - **How to migrate (shown by `react-native upgrade`)**:
-- Why make this breaking change: 
-- Severity (people affected x amount of work for them):
+- **Why make this breaking change**: 
+- **Severity (people affected x amount of work for them)**:
 
 ---
 
@@ -24,10 +24,10 @@ Add breaking changes here
 
 
 ### Android: End2End "Monkey User" tests now have dev menu disabled
-- **Commit**: https://github.com/facebook/react-native/pull/10901
-- **Who does this affect:** Integration/End-To-End Testers on Android
-- **How to migrate:** Use another mechanism if your e2e test requires the dev menu
-- **Severity:** Low
+- Commit: Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/pull/10901) - @ridgern
+- Who does this affect: Integration/End-To-End Testers on Android
+- **How to migrate**: Use another mechanism if your e2e test requires the dev menu.
+- Severity:** Low
 
 # 0.38
 
