@@ -13,6 +13,13 @@ This document serves two goals:
 - **Why make this breaking change**: 
 - **Severity (people affected x amount of work for them)**:
 
+## Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
+
+- **Who does this affect**: All product developers.
+- **How to migrate (shown by `react-native upgrade`)**: This bugfix can cause padding on TextInputs to be off by one pixel compared to the last version but it most cases you don't need to change your code.
+- **Why make this breaking change**: Fixes a bug.
+- **Severity (people affected x amount of work for them)**: Low.
+
 ### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
