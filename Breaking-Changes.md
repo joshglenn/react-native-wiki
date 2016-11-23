@@ -18,10 +18,6 @@ When adding a new breaking change, follow the below template:
 
 # master
 
-### https://github.com/facebook/react-native/commit/22141468aba2dc90946c753420a8091b67e7073c
-
-### https://github.com/facebook/react-native/commit/d63ba47b59e3261403800c1f741d979a089efb48
-
 ### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
@@ -29,6 +25,10 @@ When adding a new breaking change, follow the below template:
 - Severity (people affected x amount of work for them): ?
 
 # 0.39
+
+### https://github.com/facebook/react-native/commit/22141468aba2dc90946c753420a8091b67e7073c
+
+### https://github.com/facebook/react-native/commit/d63ba47b59e3261403800c1f741d979a089efb48
 
 ### Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
 
