@@ -6,7 +6,7 @@ This document serves two goals:
 
 Changes that are likely to be present in the next release are listed under `master`.
 
-When adding a new breaking change, follow the below template:
+When adding a new breaking change, follow this template:
 ```
 ### New breaking change here
 
