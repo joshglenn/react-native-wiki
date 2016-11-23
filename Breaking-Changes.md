@@ -46,7 +46,7 @@ When adding a new breaking change, follow the below template:
 # 0.38
 
 ###  NativeModules IOS: Remove `customDirectEventType` ([aa4428c](https://github.com/facebook/react-native/commit/aa4428cd132bb0d0dbc950b66d3b5f2a3c5b9322)) - @javache
-- Who does this affect: People writing 3rd-party modules, iOS
+- Who does this affect: People writing 3rd-party modules on iOS
 - **How to migrate (shown by `react-native upgrade`)**: Declare properties of type `RCTDirectEventBlock` instead
 - Why make this breaking change: The new API is better and we don't want to keep the old one around.
 - Severity (people affected x amount of work for them): Low
