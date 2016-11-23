@@ -18,18 +18,20 @@ When adding a new breaking change, follow the below template:
 
 # master
 
+### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
+- Who does this affect: Any product developer
+- **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
+- Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
+- Severity (people affected x amount of work for them): ?
+
+# 0.39
+
 ### Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
 
 - **Who does this affect**: All product developers.
 - **How to migrate (shown by `react-native upgrade`)**: This bugfix can cause padding on TextInputs to be off by one pixel compared to the last version but it most cases you don't need to change your code.
 - **Why make this breaking change**: Fixes a bug.
 - **Severity (people affected x amount of work for them)**: Low.
-
-### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
-- Who does this affect: Any product developer
-- **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
-- Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
-- Severity (people affected x amount of work for them): ?
 
 ### Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/pull/10901) - @ridgern
 
