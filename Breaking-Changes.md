@@ -6,7 +6,7 @@ This document serves two goals:
 
 When adding a new breaking change, follow the below template:
 ```
-## New breaking change here
+### New breaking change here
 
 - **Who does this affect**:
 - **How to migrate (shown by `react-native upgrade`)**:
@@ -16,7 +16,7 @@ When adding a new breaking change, follow the below template:
 
 # 0.39
 
-## Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
+### Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
 
 - **Who does this affect**: All product developers.
 - **How to migrate (shown by `react-native upgrade`)**: This bugfix can cause padding on TextInputs to be off by one pixel compared to the last version but it most cases you don't need to change your code.
