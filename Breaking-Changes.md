@@ -30,14 +30,14 @@ When adding a new breaking change, follow the below template:
 
 ### https://github.com/facebook/react-native/commit/d63ba47b59e3261403800c1f741d979a089efb48
 
-### Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
+### Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/commit/aa85408f568ae9776fef99dcae317def0a07139a
 
 - **Who does this affect**: All product developers.
 - **How to migrate (shown by `react-native upgrade`)**: This bugfix can cause padding on TextInputs to be off by one pixel compared to the last version but it most cases you don't need to change your code.
 - **Why make this breaking change**: Fixes a bug.
 - **Severity (people affected x amount of work for them)**: Low.
 
-### Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/pull/10901) - @ridgern
+### Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/commit/9a8b5d9f4f860f16d0845d537f80bfd2f515ee93) - @ridgern
 
 - Who does this affect: Integration/End-To-End Testers on Android
 - **How to migrate**: Use another mechanism if your e2e test requires the dev menu.
