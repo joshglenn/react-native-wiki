@@ -4,6 +4,8 @@ This document serves two goals:
 - **Easier upgrades for people**. The contents of this document are printed by `react-native upgrade` so that when people upgrade their app to a new version of React Native they have clear instructions on how to modify their code.
 - **Tracking** the number of breaking changes over time, understanding the motivation behind each of them and eventually having an idea how to reduce the amount of breaking changes.
 
+Changes that are likely to be present in the next release are listed under `master`.
+
 When adding a new breaking change, follow the below template:
 ```
 ### New breaking change here
@@ -14,7 +16,7 @@ When adding a new breaking change, follow the below template:
 - **Severity (people affected x amount of work for them)**:
 ```
 
-# 0.39
+# master
 
 ### Fix inconsistency with fractional TextInput padding, https://github.com/facebook/react-native/pull/11003
 
