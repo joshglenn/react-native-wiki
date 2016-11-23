@@ -13,7 +13,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**:
 - **How to migrate (shown by `react-native upgrade`)**:
 - **Why make this breaking change**: 
-- **Severity (people affected x amount of work for them)**:
+- **Severity (number people affected x amount of work for them)**:
 ```
 
 # master
@@ -22,7 +22,7 @@ When adding a new breaking change, follow this template:
 - Who does this affect: Any product developer
 - **How to migrate (shown by `react-native upgrade`)**: ? Fill this in once/if the diff lands.
 - Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
-- Severity (people affected x amount of work for them): ?
+- Severity (number people affected x amount of work for them): ?
 
 # 0.39
 
@@ -35,7 +35,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: All product developers.
 - **How to migrate (shown by `react-native upgrade`)**: This bugfix can cause padding on TextInputs to be off by one pixel compared to the last version but it most cases you don't need to change your code.
 - **Why make this breaking change**: Fixes a bug.
-- **Severity (people affected x amount of work for them)**: Low.
+- **Severity (number of people affected x amount of work for them)**: Low.
 
 ### Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/commit/9a8b5d9f4f860f16d0845d537f80bfd2f515ee93) - @ridgern
 
