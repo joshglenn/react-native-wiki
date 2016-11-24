@@ -1,8 +1,9 @@
-This is a complete list of breaking changes in each release of React Native, compiled **as commits land**. This way we can get enough information from owners right when the change is still fresh in their memory.
+This is a complete list of breaking changes in each release of React Native, compiled as commits land. This way we can get enough information from owners right when the change is still fresh in their memory.
 
 This document serves two goals:
-- **Easier upgrades for people**. The contents of this document are printed by `react-native upgrade` so that when people upgrade their app to a new version of React Native they have clear instructions on how to modify their code.
+- **Easier upgrades**. The contents of this document will be printed by `react-native upgrade` so that when people upgrade their app to a new version of React Native they have clear instructions on how to modify their code.
 - **Tracking** the number of breaking changes over time, understanding the motivation behind each of them and eventually having an idea how to reduce the amount of breaking changes.
+
 
 Changes that are likely to be present in the next release are listed under `master`.
 
