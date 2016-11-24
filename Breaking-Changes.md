@@ -24,13 +24,12 @@ When adding a new breaking change, follow this template:
 - Why make this breaking change: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 - Severity (number people affected x amount of work for them): ?
 
-### Change the `JSCExecutor::callFunctionSync` C++ template ([bd524b](https://github.com/facebook/react-native/commit/bd524bd6e857ada8ec827d65a163d8838e96640b) - Lukas Piatkowski
+### Change the `JSCExecutor::callFunctionSync` C++ template ([bd524b](https://github.com/facebook/react-native/commit/bd524bd6e857ada8ec827d65a163d8838e96640b)) - Lukas Piatkowski
 
 - **Who does this affect**: Library authors who call `callFunctionSync` from Obj-C, or from Java via JNI.
 - **How to migrate (shown by `react-native upgrade`)**: Check all the places where you call the native `callFunctionSync`.
 - **Why make this breaking change**: Fixes a bug.
 - **Severity (number of people affected x amount of work for them)**: Very low.
-
 
 # 0.39
 
