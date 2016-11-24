@@ -61,7 +61,7 @@ When adding a new breaking change, follow this template:
 - **Why make this breaking change**: Fixes a bug.
 - **Severity (number of people affected x effort)**: Low.
 
-### Android: Disable debug menu when Monkey is running (https://github.com/facebook/react-native/commit/9a8b5d9f4f860f16d0845d537f80bfd2f515ee93) - @ridgern
+### Android: Disable debug menu when Monkey is running ([9a8b5d](https://github.com/facebook/react-native/commit/9a8b5d9f4f860f16d0845d537f80bfd2f515ee93)) - @ridgern
 
 - Who does this affect: Integration/End-To-End Testers on Android
 - **How to migrate**: Use another mechanism if your e2e test requires the dev menu.
