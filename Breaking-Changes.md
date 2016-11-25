@@ -51,7 +51,7 @@ When adding a new breaking change, follow this template:
 
 - **Who does this affect**: Product developers, Android
 - **How to migrate**: Previously, developers had to put `flex: 1` in many places it didn't belong in order to work around a bug in css-layout. Now `flex: 1` is treated properly and, unfortunately, this means that your layout may no longer look correct. Specifically, you may see that your layout looks collapsed, or children don't render. The fix is to simply remove `flex: 1` from those containers.
-- **Why make this breaking change**: This has shown to be a huge performance win for layout time within FB. Fixes bugs in layout, the layout is closer to web.
+- **Why make this breaking change**: The C-based implementation fixes bugs in layout, the behavior is closer to web. The C-based implementation is also faster.
 - **Severity (number of people affected x effort)**: Low
 
 
