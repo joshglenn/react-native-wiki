@@ -34,7 +34,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: Product developers
 - **How to migrate**: Use `<Image source={require('./icon.png')} />`. See http://facebook.github.io/react-native/docs/images.html for more info. In rare cases when you need to directly access native images present in your hybrid app, use `nativeImageSource`.
 - **Why make this breaking change**: The API has been deprecated for a very long time and the alternative is much better.
-- **Severity (number of people affected x effort)**: Low (hopefully everyone migrated a long time ago).
+- **Severity (number of people affected x effort)**: Low (hopefully everyone migrated a long time ago)
 
 
 ### Change the `JSCExecutor::callFunctionSync` C++ template ([bd524b](https://github.com/facebook/react-native/commit/bd524bd6e857ada8ec827d65a163d8838e96640b)) - Lukas Piatkowski
@@ -42,7 +42,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: Library authors who call `callFunctionSync` from Obj-C, or from Java via JNI.
 - **How to migrate**: Check all the places where you call the native `callFunctionSync`.
 - **Why make this breaking change**: Fixes a bug.
-- **Severity (number of people affected x effort)**: Very low.
+- **Severity (number of people affected x effort)**: Very low
 
 
 # 0.39
@@ -52,7 +52,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: Product developers, Android
 - **How to migrate**: Previously, developers had to put `flex: 1` in many places it didn't belong in order to work around a bug in css-layout. Now `flex: 1` is treated properly and, unfortunately, this means that your layout may no longer look correct. Specifically, you may see that your layout looks collapsed, or children don't render. The fix is to simply remove `flex: 1` from those containers.
 - **Why make this breaking change**: This has shown to be a huge performance win for layout time within FB. Fixes bugs in layout, the layout is closer to web.
-- **Severity (number of people affected x effort)**: Low.
+- **Severity (number of people affected x effort)**: Low
 
 
 ### Fix inconsistency with fractional TextInput padding ([aa8540](https://github.com/facebook/react-native/commit/aa85408f568ae9776fef99dcae317def0a07139a)) - @rigdern
@@ -60,7 +60,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: Product developers
 - **How to migrate**: This bugfix can cause padding on TextInputs to be off by one pixel compared to the last version but it most cases you don't need to change your code.
 - **Why make this breaking change**: Fixes a bug.
-- **Severity (number of people affected x effort)**: Low.
+- **Severity (number of people affected x effort)**: Low
 
 ### Android: Disable debug menu when Monkey is running ([9a8b5d](https://github.com/facebook/react-native/commit/9a8b5d9f4f860f16d0845d537f80bfd2f515ee93)) - @ridgern
 
