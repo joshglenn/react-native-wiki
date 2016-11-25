@@ -34,7 +34,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: Product developers
 - **How to migrate**: Use `<Image source={require('./icon.png')} />`. See http://facebook.github.io/react-native/docs/images.html for more info. In rare cases when you need to directly access native images present in your hybrid app, use `nativeImageSource`.
 - **Why make this breaking change**: The API has been deprecated for a very long time and the alternative is much better.
-- **Severity (number of people affected x effort)**: Medium (hopefully everyone migrated a long time ago).
+- **Severity (number of people affected x effort)**: Low (hopefully everyone migrated a long time ago).
 
 
 ### Change the `JSCExecutor::callFunctionSync` C++ template ([bd524b](https://github.com/facebook/react-native/commit/bd524bd6e857ada8ec827d65a163d8838e96640b)) - Lukas Piatkowski
