@@ -4,7 +4,7 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 ## Core Libraries
 
-* A new standard navigation library. Owners: [skevy](https://twitter.com/skevy), [ericvicenti](https://twitter.com/ericvicenti). ETA: November
+* A new standard navigation library. Owners: [skevy](https://twitter.com/skevy), [ericvicenti](https://twitter.com/ericvicenti). ETA: December
     * Right now there are a large number of navigation libraries. We don't think one navigation library will be enough for every use case, but we do think we can make it better. The goal is for this new navigation library to be ideal for apps that handle navigation in JavaScript. Once it is released and stable, we can deprecate Navigator, NavigationExperimental, and ExNavigation.
     * This is in response to the feature request: https://productpains.com/post/react-native/better-navigator-api-and-docs
 * Smoother animations. Owners: [ji](https://twitter.com/ji), [janicduplessis](https://twitter.com/janicduplessis). ETA: December
@@ -21,8 +21,6 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 ## Stability
 
-* Deprecating the existing MapView. Owners: [martinkonicek](https://twitter.com/martinkonicek). ETA: November
-    * In practice, react-native-maps is a better mapping library. We haven't made a regular practice of deprecating things, so there's some work needed to make it a clean experience, like supporting an intermediate warning period, and possibly helping people upgrade by spinning out the existing MapView into a separate library for people who can't upgrade. Once we develop a clean deprecation process we'll apply it to other components as well.
 * Improved sourcemaps. Owners: [Ovidiu Iepure](https://github.com/matryoshcow). ETA: December
     * There are a set of issues with sourcemaps that we intend to fix. Some notable ones are setting break points within JSX, and fixing the off-by-x errors in production maps. There is other work to fix crashes and generally make sourcemaps work better.
 
