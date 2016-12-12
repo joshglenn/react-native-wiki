@@ -36,12 +36,20 @@ When adding a new breaking change, follow this template:
 - **Why make this breaking change**: The API has been deprecated for a very long time and the alternative is much better.
 - **Severity (number of people affected x effort)**: Low (hopefully everyone migrated a long time 
 
-### Namespace all header imports to `<React/...>` ([e1577d](https://github.com/facebook/react-native/commit/e1577df1fd70049ce7f288f91f6e2b18d512ff4d))
+### Namespace all header imports to `<React/...>` ([e1577d](https://github.com/facebook/react-native/commit/e1577df1fd70049ce7f288f91f6e2b18d512ff4d)) - @javache
 
 - **Who does this affect**: iOS library authors who have custom integrations with React Native
 - **How to migrate**: If you encounter build errors replace `#import "RCT*"` with `#import <React/...>`. See the commit for more details.
 - **Why make this breaking change**: This improves interoperability with FB's internal build system and makes it easier to use React Native in a mixed hybrid environment
 - **Severity (number of people affected x effort)**: Very high
+
+In third-party native code, instead of
+
+    #import "RCTBridge.h"
+
+use a name-spaced system import
+
+    #import <React/RCTBridge.h>
 
 ### Change the `JSCExecutor::callFunctionSync` C++ template ([bd524b](https://github.com/facebook/react-native/commit/bd524bd6e857ada8ec827d65a163d8838e96640b)) - Lukas Piatkowski
 
