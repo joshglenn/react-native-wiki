@@ -41,7 +41,7 @@ When adding a new breaking change, follow this template:
 - **Who does this affect**: iOS library authors who have custom integrations with React Native
 - **How to migrate**: If you encounter build errors replace `#import "RCT*"` with `#import <React/...>`. See the commit for more details.
 - **Why make this breaking change**: This improves interoperability with FB's internal build system and makes it easier to use React Native in a mixed hybrid environment
-- **Severity (number of people affected x effort)**: Medium
+- **Severity (number of people affected x effort)**: Very high
 
 ### Change the `JSCExecutor::callFunctionSync` C++ template ([bd524b](https://github.com/facebook/react-native/commit/bd524bd6e857ada8ec827d65a163d8838e96640b)) - Lukas Piatkowski
 
