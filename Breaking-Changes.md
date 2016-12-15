@@ -21,6 +21,14 @@ When adding a new breaking change, follow this template:
 # master
 
 
+### Android - ReactNativeHost getUseDeveloperSupport to public ([f3c815](https://github.com/facebook/react-native/commit/f3c8158773edf418833ff0032414433edbc6cd62)) - @jpshelley
+
+- **Who does this affect**: Product developers
+- **How to migrate**: Change `protected boolean getUseDeveloperSupport() {` to `public boolean getUseDeveloperSupport() {` in your `MainApplication.java` file.
+- **Why make this breaking change**: This allows `ReactNativeHost` to be more easily used outside of the `ReactActivity` and `ReactActivityDelegate` ecosystem. (A `ReactFragment` would be a good example).
+- **Severity (number of people affected x effort)**: Medium
+
+
 ### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
 
 - **Who does this affect**: Product developers
