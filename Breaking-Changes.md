@@ -20,6 +20,14 @@ When adding a new breaking change, follow this template:
 
 # master
 
+### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
+
+- **Who does this affect**: Product developers
+- **How to migrate**: ? Fill this in once/if the diff lands.
+- **Why make this breaking change**: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
+- **Severity (number of people affected x effort)**: ?
+
+# 0.41
 
 ### Android - ReactNativeHost getUseDeveloperSupport to public ([f3c815](https://github.com/facebook/react-native/commit/f3c8158773edf418833ff0032414433edbc6cd62)) - @jpshelley
 
@@ -28,14 +36,7 @@ When adding a new breaking change, follow this template:
 - **Why make this breaking change**: This allows `ReactNativeHost` to be more easily used outside of the `ReactActivity` and `ReactActivityDelegate` ecosystem. (A `ReactFragment` would be a good example).
 - **Severity (number of people affected x effort)**: Medium
 
-
-### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
-
-- **Who does this affect**: Product developers
-- **How to migrate**: ? Fill this in once/if the diff lands.
-- **Why make this breaking change**: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
-- **Severity (number of people affected x effort)**: ?
-
+# 0.40
 
 ### Kill deprecated `require('image!...')`: ([ca58e0](https://github.com/facebook/react-native/commit/ca58e0af82797042fabad3873478bc4a9feb7281)) - @davidaurelio 
 
