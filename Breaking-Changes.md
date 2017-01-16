@@ -20,6 +20,17 @@ When adding a new breaking change, follow this template:
 
 # master
 
+### D4398956: Breaking - (Re)moving `JSBundleLoader.getSourceUrl()`- @amnn
+*@ashokmenon in FB*
+
+- **Who does this affect**: People using any of the following API's to access the Source URL of their React Native bundle:
+  - `JSBundleLoader.getSourceUrl()`
+  - `ReactInstanceManager.getSourceUrl()`
+  - `ReactInstanceManager.getJSBundleFile()`
+- **How to migrate**: Instead, refer to the source of truth for this information, which is at `CatalystInstance.getSourceURL()`, or the return value of `JSBundleLoader.loadScript()`.
+- **Why make this breaking change**: It is possible to implement loaders that do not know the exact source URL they will load until after it has already been loaded. E.g. A loader that tries to multiple sources until one succeeds. To allow us to implement such loaders, we are removing the assumption that the source URL is statically determinable.
+- **Severity (number of people affected x effort)**: Very few people should be affected, and migration effort is low.
+
 ### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
 
 - **Who does this affect**: Product developers
