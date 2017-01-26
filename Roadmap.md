@@ -21,8 +21,7 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 ## Stability
 
-* Improved sourcemaps. Owners: [Ovidiu Iepure](https://github.com/matryoshcow). ETA: December
-    * There are a set of issues with sourcemaps that we intend to fix. Some notable ones are setting break points within JSX, and fixing the off-by-x errors in production maps. There is other work to fix crashes and generally make sourcemaps work better.
+* Improved sourcemaps launched: https://medium.com/@david.aurelio/medium-fast-source-map-generation-for-react-native-ea5549007c18#.rvqqd78cd
 
 ## Developer Experience
 
