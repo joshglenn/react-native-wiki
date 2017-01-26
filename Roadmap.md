@@ -22,7 +22,7 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 ## Stability
 
 * Improved packager. Owner: [Christoph Pojer](https://twitter.com/cpojer). ETA: June
-    * We are working on further improving stability, reliability and performance of React Native's packager. The precise form this improvement should take is not yet clear.
+    * We are working on further improving stability, reliability and performance of React Native's packager. The precise form this improvement should take is not yet clear. We'll have more exciting news to share in the near future!
 
 ## Developer Experience
 
