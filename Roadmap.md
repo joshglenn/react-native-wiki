@@ -21,7 +21,8 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 ## Stability
 
-* Improved sourcemaps will launch with the March 1st release: https://medium.com/@david.aurelio/medium-fast-source-map-generation-for-react-native-ea5549007c18#.rvqqd78cd
+* Improved packager. Owner: [Christoph Pojer](https://twitter.com/cpojer). ETA: June
+    * We are working on further improving stability, reliability and performance of React Native's packager. The precise form this improvement should take is not yet clear.
 
 ## Developer Experience
 
