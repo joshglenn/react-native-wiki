@@ -7,8 +7,6 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 * A new standard navigation library. Owners: [skevy](https://twitter.com/skevy), [ericvicenti](https://twitter.com/ericvicenti). ETA: January
     * Right now there are a large number of navigation libraries. We don't think one navigation library will be enough for every use case, but we do think we can make it better. The goal is for this new navigation library to be ideal for apps that handle navigation in JavaScript. Once it is released and stable, we can deprecate Navigator, NavigationExperimental, and ExNavigation.
     * This is in response to the feature request: https://productpains.com/post/react-native/better-navigator-api-and-docs
-* Orientation. Owners: [Mehdi Mulani](https://github.com/mmmulani). ETA: January
-    * A better library for letting developers control orientation in an app. This has been a common area of feedback and we think we can improve the experience here.
 * Smoother animations. Owners: [ji](https://twitter.com/ji), [janicduplessis](https://twitter.com/janicduplessis). ETA: February
     * There are many improvements here, but a key milestone is when we have the navigation sliding & fading transitions working with the native driver and the backswipe gesture too if that interacts with the native driver in any way.
     * This is in response to the feature request: https://productpains.com/post/react-native/offload-some-animations-from-js-thread-for-better-perf
