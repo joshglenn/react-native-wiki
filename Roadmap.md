@@ -21,7 +21,7 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 ## Stability
 
-* Improved sourcemaps launched: https://medium.com/@david.aurelio/medium-fast-source-map-generation-for-react-native-ea5549007c18#.rvqqd78cd
+* Improved sourcemaps will launch with the March 1st release: https://medium.com/@david.aurelio/medium-fast-source-map-generation-for-react-native-ea5549007c18#.rvqqd78cd
 
 ## Developer Experience
 
