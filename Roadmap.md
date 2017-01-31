@@ -15,6 +15,9 @@ The React Native roadmap can be broken down into three key priorities: adding fu
     * A navigation library specifically designed for applications that are part native, part React Native. We are pretty sure the right solution involves a different navigation library. Once this is released and stable, we can deprecate NavigatorIOS.
 * Better maps. Owners: [Leland Richardson](https://twitter.com/intelligibabble). ETA: March
     * Since the plan is to make the react-native-maps module the officially recommended maps solution for the React Native community, we need more features to be considered complete. We want iOS support for MapKit, Google Maps, and Mapbox and Android support for Google maps and Mapbox. In particular this should improve quality in China.
+* An improved ListView. Owner: [Spencer Ahrens](https://github.com/sahrens). ETA: June
+    * There's a lot that can be done here - see Spencer's more detailed notes at https://gist.github.com/sahrens/902d49c6c154cd09fafc52a79503728f . 
+    * This is in response to the feature reqest: https://productpains.com/post/react-native/fix-various-listview-issues
 
 ## Core Performance
 
