@@ -18,6 +18,9 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 * An improved ListView. Owner: [Spencer Ahrens](https://github.com/sahrens). ETA: June
     * There's a lot that can be done here - see Spencer's more detailed notes at https://gist.github.com/sahrens/902d49c6c154cd09fafc52a79503728f . 
     * This is in response to the feature reqest: https://productpains.com/post/react-native/fix-various-listview-issues
+* Share C++ code between Android and iOS bridges. Owner [Marc Horowitz](https://github.com/mhorowitz). ETA: March/April
+    * Building the C++ bridge on top of a common code base reduces code duplication, makes the two platforms more consistent, makes it faster to iterate on the lower layers of the bridge, and enables efficient use of cross-platform C++ modules.
+    * For code using documented React Native interfaces, this should be an invisible change.
 
 ## Core Performance
 
