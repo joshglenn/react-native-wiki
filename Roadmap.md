@@ -1,6 +1,6 @@
 This document outlines some of the upcoming plans for React Native. Since React Native is a fast-moving project with a large amount of community contribution, this roadmap doesn't include everything that will go into React Native.
 
-The React Native roadmap can be broken down into three key priorities: adding functionality to the core libraries, improving the overall stability of React Native by reducing bugs and breaking changes, and making the developer experience better.
+The React Native roadmap can be broken down into three key priorities: adding functionality to the core libraries, improving the core performance and stability of React Native, and making the developer experience better.
 
 ## Core Libraries
 
@@ -16,10 +16,13 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 * Better maps. Owners: [Leland Richardson](https://twitter.com/intelligibabble). ETA: March
     * Since the plan is to make the react-native-maps module the officially recommended maps solution for the React Native community, we need more features to be considered complete. We want iOS support for MapKit, Google Maps, and Mapbox and Android support for Google maps and Mapbox. In particular this should improve quality in China.
 
-## Stability
+## Core Performance
 
 * Improved packager. Owner: [Christoph Pojer](https://twitter.com/cpojer). ETA: June
     * We are working on further improving stability, reliability and performance of React Native's packager. The precise form this improvement should take is not yet clear. We'll have more exciting news to share in the near future!
+* Turn on Nodes by default for new React Native apps. Owner: [Aaron Chiu](https://github.com/AaaChiuuu). ETA: June
+    * Nodes is a new mechanism for layout that should improve performance and fix several longstanding dysfunctions.
+    * It's currently available but has to be explicitly enabled. We need it to be compatible with existing features before flipping it to the default.
 
 ## Developer Experience
 
