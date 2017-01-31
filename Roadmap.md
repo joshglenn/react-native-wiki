@@ -32,6 +32,8 @@ The React Native roadmap can be broken down into three key priorities: adding fu
     * Xcode, for example, lets you create a new app with stack or tab navigation via UI. It should be easy to do this in React Native too.
 * A better "create-react-native-app" workflow. Owners: [Adam Perry](https://github.com/dikaiosune), [martinkonicek](https://twitter.com/martinkonicek). ETA: March
     * The goal is to make it simpler to set up new applications. It should be possible to create a new React Native app without first installing Xcode or Android Studio.
+* A new React Native tutorial. Owner: [Hector Ramos](https://twitter.com/hectorramos?lang=en). ETA: April
+    * Currently there is a tutorial but it is doing double duty as reference material because it doesn't really read linearly. The idea of this new tutorial is to take you through building a reasonable sample app.
 
 Thanks to all the individuals and companies helping out with the projects on this roadmap!
 
