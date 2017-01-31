@@ -26,6 +26,8 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 * Turn on Nodes by default for new React Native apps. Owner: [Aaron Chiu](https://github.com/AaaChiuuu). ETA: June
     * Nodes is a new mechanism for layout that should improve performance and fix several longstanding dysfunctions.
     * It's currently available but has to be explicitly enabled. We need it to be compatible with existing features before flipping it to the default.
+* Significantly improve performance, focusing on Android. Owner: [Aaron Chiu](https://github.com/AaaChiuuu). ETA: June
+    * There's a number of performance improvements so this breaks down into a lot of smaller issues.
 
 ## Developer Experience
 
