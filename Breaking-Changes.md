@@ -20,6 +20,15 @@ When adding a new breaking change, follow this template:
 
 # master
 
+### D4456312 (not landed yet)
+
+- **Who does this affect**: Product developers
+- **How to migrate**: ? Fix should be quite straightforward. Just find elements affected and add flexGrow property to elements that aren't growing as expected.
+- **Why make this breaking change**: Fixes a bug in Yoga that allowed grandchild of an element to flex itself to the maximum size even though its direct parent didn't use flexGrow. You can see the difference between them here:
+http://jsfiddle.net/y11txxv9/279 and http://jsfiddle.net/y11txxv9/278. In Yoga the first scenario (http://jsfiddle.net/y11txxv9/279/) doesn't behave correctly, resulting in the same layout as in second scenario.
+You can see the difference between them here:
+- **Severity (number of people affected x effort)**: Medium
+
 ### D4398956: Breaking - (Re)moving `JSBundleLoader.getSourceUrl()`- @amnn
 *@ashokmenon in FB*
 
