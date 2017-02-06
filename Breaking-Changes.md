@@ -33,7 +33,7 @@ When adding a new breaking change, follow this template:
 
 ### D4157971 (not landed yet, need changes to product code at fb) - @emilsjolander
 
-- **Who does this affect**: Product developers
+- **Who does this affect**: Product developers (Android)
 - **How to migrate**: ? Fill this in once/if the diff lands.
 - **Why make this breaking change**: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 - **Severity (number of people affected x effort)**: ?
