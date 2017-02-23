@@ -20,7 +20,7 @@ When adding a new breaking change, follow this template:
 
 # master
 
-### Flow Config Change
+### Flow Config Change ([b0bdbe](https://github.com/facebook/react-native/commit/b0bdbeb5c3b5c1dbea57ce81b9f43bd5845dc409)) - @skevy
 - **Who does this affect**: Any app which uses flow-typed code
 - **How to migrate**: Update the `.flowconfig` file inside your project with the following change:
 https://github.com/facebook/react-native/commit/b0bdbeb5c3b5c1dbea57ce81b9f43bd5845dc409
