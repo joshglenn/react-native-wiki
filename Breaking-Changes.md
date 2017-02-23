@@ -20,6 +20,13 @@ When adding a new breaking change, follow this template:
 
 # master
 
+### Flow Config Change
+- **Who does this affect**: Any app which uses flow-typed code
+- **How to migrate**: Update the `.flowconfig` file inside your project with the following change:
+https://github.com/facebook/react-native/commit/b0bdbeb5c3b5c1dbea57ce81b9f43bd5845dc409
+- **Why make this breaking change**: Adds a new `$FlowExpectedError` which is useful for test cases that are meant to throw
+- **Severity (number of people affected x effort)**: Medium
+
 ### D4456312 (not landed yet)
 
 - **Who does this affect**: Product developers
