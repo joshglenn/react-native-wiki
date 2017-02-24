@@ -54,7 +54,9 @@ You can see the difference between them here:
 - **Why make this breaking change**: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 - **Severity (number of people affected x effort)**: ?
 
-# 0.43 -  Android: Only call onLayout when layout has actually changed ([15429e](https://github.com/facebook/react-native/commit/15429e333f8fd80c4778f222058dbb16278cf625)) - @astreet
+# 0.43
+
+### Android: Only call onLayout when layout has actually changed ([15429e](https://github.com/facebook/react-native/commit/15429e333f8fd80c4778f222058dbb16278cf625)) - @astreet
 
 - **Who does this affect**: Product developers (Android)
 - **How to migrate**: Depends on how you use `onLayout`. It will only be called when the layout actually changes.
