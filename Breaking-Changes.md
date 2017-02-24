@@ -54,6 +54,13 @@ You can see the difference between them here:
 - **Why make this breaking change**: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 - **Severity (number of people affected x effort)**: ?
 
+# 0.43 -  Android: Only call onLayout when layout has actually changed ([15429e](https://github.com/facebook/react-native/commit/15429e333f8fd80c4778f222058dbb16278cf625)) - @astreet
+
+- **Who does this affect**: Product developers (Android)
+- **How to migrate**: Depends on how you use `onLayout`. It will only be called when the layout actually changes.
+- **Why make this breaking change**: Fixes wrong behavior - previously `onLayout` was called to often which was bad for perf.
+- **Severity (number of people affected x effort)**: Medium.
+
 # 0.41
 
 ### Android - ReactNativeHost getUseDeveloperSupport to public ([f3c815](https://github.com/facebook/react-native/commit/f3c8158773edf418833ff0032414433edbc6cd62)) - @jpshelley
