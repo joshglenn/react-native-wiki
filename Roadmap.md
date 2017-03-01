@@ -31,7 +31,7 @@ The React Native roadmap can be broken down into three key priorities: adding fu
     * We'll focus on rewriting packager internals and building updateable bundles so that in development mode only the changed files have to be sent to the device.
 * Better templates for creating new apps. Owner: [Martin Konicek](https://twitter.com/martinkonicek). ETA: March
     * Xcode, for example, lets you create a new app with stack or tab navigation via UI. It should be easy to do this in React Native too.
-* A better "create-react-native-app" workflow. Owners: [Adam Perry](https://github.com/dikaiosune), [martinkonicek](https://twitter.com/martinkonicek). ETA: March
+* A better "create-react-native-app" workflow. Owners: [Adam Perry](https://github.com/dikaiosune), [Héctor Ramos](https://twitter.com/hectorramos). ETA: March
     * The goal is to make it simpler to set up new applications. It should be possible to create a new React Native app without first installing Xcode or Android Studio.
 * A new React Native tutorial. Owner: [Hector Ramos](https://twitter.com/hectorramos?lang=en). ETA: April
     * Currently there is a tutorial but it is doing double duty as reference material because it doesn't really read linearly. The idea of this new tutorial is to take you through building a reasonable sample app.
