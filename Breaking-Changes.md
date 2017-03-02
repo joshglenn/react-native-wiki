@@ -20,6 +20,12 @@ When adding a new breaking change, follow this template:
 
 # master
 
+### D4611211 [ReactNative][Android][breaking] move NativeModule initialization off UI thread
+- **Who does this affect**: Native modules which need initialization on the UI thread.
+- **How to migrate**: Nove the UI thread specific to be run on the first time onHostResume() is called.
+- **Why make this breaking change**: Potentially breaks threading requirements.
+- **Severity (number of people affected x effort)**: Low
+
 ### Flow Config Change ([b0bdbe](https://github.com/facebook/react-native/commit/b0bdbeb5c3b5c1dbea57ce81b9f43bd5845dc409)) - @skevy
 - **Who does this affect**: Any app which uses flow-typed code
 - **How to migrate**: Update the `.flowconfig` file inside your project with the following change:
