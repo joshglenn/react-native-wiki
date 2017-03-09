@@ -64,7 +64,7 @@ You can see the difference between them here:
 
 # 0.44
 
-### iOS: Remove MapView ([48f30e](https://github.com/facebook/react-native/commit/48f30eca7e3d4c239501de515a7cc35615ed6bd1))
+### iOS: Remove MapView ([48f30e](https://github.com/facebook/react-native/commit/48f30eca7e3d4c239501de515a7cc35615ed6bd1)) - mkonicek
 - **Who does this affect**: Product developers (iOS)
 - **How to migrate**: Use https://github.com/airbnb/react-native-maps
 - **Why make this breaking change**: MapView has been deprecated for a long time. airbnb/react-native-maps is better and works on both platforms.
