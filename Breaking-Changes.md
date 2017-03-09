@@ -62,6 +62,14 @@ You can see the difference between them here:
 - **Why make this breaking change**: Fixes wrong behavior - makes this behave the same as on the web. Repro in https://github.com/facebook/react-native/issues/10603
 - **Severity (number of people affected x effort)**: ?
 
+# 0.44
+
+### iOS: Remove MapView ([48f30e](https://github.com/facebook/react-native/commit/48f30eca7e3d4c239501de515a7cc35615ed6bd1))
+- **Who does this affect**: Product developers (iOS)
+- **How to migrate**: Use https://github.com/airbnb/react-native-maps
+- **Why make this breaking change**: MapView has been deprecated for a long time. airbnb/react-native-maps is better and works on both platforms.
+- **Severity (number of people affected x effort)**: Medium
+
 # 0.43
 
 ### Android: Only call onLayout when layout has actually changed ([15429e](https://github.com/facebook/react-native/commit/15429e333f8fd80c4778f222058dbb16278cf625)) - @astreet
