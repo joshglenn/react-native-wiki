@@ -23,7 +23,7 @@ When adding a new breaking change, follow this template:
 ### D4611211 [ReactNative][Android][breaking] move NativeModule initialization off UI thread - @AaaChiuuu
 *@aaronechiu in FB*
 - **Who does this affect**: Native modules which need initialization on the UI thread.
-- **How to migrate**: Nove the UI thread specific to be run on the first time onHostResume() is called.
+- **How to migrate**: Move the UI thread specific to be run on the first time onHostResume() is called.
 - **Why make this breaking change**: Potentially breaks threading requirements.
 - **Severity (number of people affected x effort)**: Low
 
