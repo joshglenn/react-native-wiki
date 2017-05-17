@@ -64,6 +64,14 @@ You can see the difference between them here:
 
 # 0.44
 
+### iOS: Support withCredentials flag in XHRs ([454ab8](https://github.com/facebook/react-native/commit/454ab8fc238da16f9c3986d9a64ea8e716ac0bac))
+
+- **Who does this affect**: iOS product developers who rely on XHR to send cookies by default
+- **How to migrate**: Configure XHR requests to send cookies by providing the `withCredentials` argument to `sendRequest`
+- **Why make this breaking change**: Enables consistency with the default behavior of XHR on web for cross-site requests
+- **Severity (number of people affected x effort)**: Low
+
+
 ### iOS: Remove MapView ([48f30e](https://github.com/facebook/react-native/commit/48f30eca7e3d4c239501de515a7cc35615ed6bd1)) - mkonicek
 - **Who does this affect**: Product developers (iOS)
 - **How to migrate**: Use https://github.com/airbnb/react-native-maps
