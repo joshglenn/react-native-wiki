@@ -2,12 +2,6 @@ This document outlines some of the upcoming plans for React Native. Since React 
 
 The React Native roadmap can be broken down into three key priorities: adding functionality to the core libraries, improving the core performance and stability of React Native, and making the developer experience better.
 
-## Core Libraries
-
-* Better maps. Owners: [Leland Richardson](https://twitter.com/intelligibabble). ETA: March
-    * Since the plan is to make the react-native-maps module the officially recommended maps solution for the React Native community, we need more features to be considered complete. We want iOS support for MapKit, Google Maps, and Mapbox and Android support for Google maps and Mapbox. In particular this should improve quality in China.
-
-
 ## Core Performance
 
 * Improved packager. Owner: [Christoph Pojer](https://twitter.com/cpojer). ETA: June
@@ -27,10 +21,11 @@ The React Native roadmap can be broken down into three key priorities: adding fu
     * We'll focus on rewriting packager internals and building updatable bundles so that in development mode only the changed files have to be sent to the device.
 * Better templates for creating new apps. Owner: [Martin Konicek](https://twitter.com/martinkonicek). ETA: March
     * Xcode, for example, lets you create a new app with stack or tab navigation via UI. It should be easy to do this in React Native too.
-* A new React Native tutorial. Owner: [Héctor Ramos](https://twitter.com/hectorramos?lang=en). ETA: April
+    * This is now available, but has not yet been documented.
+* A new React Native tutorial. Owner: [Héctor Ramos](https://twitter.com/hectorramos). ETA: June
     * Currently there is a tutorial but it is doing double duty as reference material because it doesn't really read linearly. The idea of this new tutorial is to take you through building a reasonable sample app.
 
 Thanks to all the individuals and companies helping out with the projects on this roadmap!
 
-If you have suggestions for features that you think would be valuable on the roadmap, check out [Canny](https://react-native.canny.io/feature-requests/), where you can suggest new features and discuss existing proposals, or contact [lacker](https://twitter.com/lacker).
+If you have suggestions for features that you think would be valuable on the roadmap, check out [Canny](https://react-native.canny.io/feature-requests/), where you can suggest new features and discuss existing proposals, or contact [hectorramos](https://twitter.com/hectorramos).
 
