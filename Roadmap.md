@@ -27,5 +27,5 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 Thanks to all the individuals and companies helping out with the projects on this roadmap!
 
-If you have suggestions for features that you think would be valuable on the roadmap, check out [Canny](https://react-native.canny.io/feature-requests/), where you can suggest new features and discuss existing proposals, or contact [hectorramos](https://twitter.com/hectorramos).
+If you have suggestions for features that you think would be valuable on the roadmap, check out [Canny](https://react-native.canny.io/feature-requests/), where you can suggest new features and discuss existing proposals, or contact [@hectorramos](https://twitter.com/hectorramos).
 
