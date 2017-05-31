@@ -7,12 +7,6 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 * Better maps. Owners: [Leland Richardson](https://twitter.com/intelligibabble). ETA: March
     * Since the plan is to make the react-native-maps module the officially recommended maps solution for the React Native community, we need more features to be considered complete. We want iOS support for MapKit, Google Maps, and Mapbox and Android support for Google maps and Mapbox. In particular this should improve quality in China.
 
-* **Completed:** A standard [navigation library for hybrid apps](airbnb.io/native-navigation/). Owners: [Leland Richardson](https://twitter.com/intelligibabble). 
-    * A navigation library specifically designed for applications that are part native, part React Native. We are pretty sure the right solution involves a different navigation library. Once this is stable, we can deprecate NavigatorIOS.
-* **Completed:** [An improved ListView](https://facebook.github.io/react-native/blog/2017/03/13/better-list-views.html). Owner: [Spencer Ahrens](https://github.com/sahrens).
-    * There's a lot that can be done here - see Spencer's more detailed notes at https://gist.github.com/sahrens/902d49c6c154cd09fafc52a79503728f . 
-    * This is in response to the feature request: https://react-native.canny.io/feature-requests/p/fix-various-listview-issues
-
 
 ## Core Performance
 
@@ -30,14 +24,11 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 ## Developer Experience
 
 * Faster app reloads during development. Owners: [cpojer](https://twitter.com/cpojer). ETA: March
-    * We'll focus on rewriting packager internals and building updateable bundles so that in development mode only the changed files have to be sent to the device.
+    * We'll focus on rewriting packager internals and building updatable bundles so that in development mode only the changed files have to be sent to the device.
 * Better templates for creating new apps. Owner: [Martin Konicek](https://twitter.com/martinkonicek). ETA: March
     * Xcode, for example, lets you create a new app with stack or tab navigation via UI. It should be easy to do this in React Native too.
 * A new React Native tutorial. Owner: [Héctor Ramos](https://twitter.com/hectorramos?lang=en). ETA: April
     * Currently there is a tutorial but it is doing double duty as reference material because it doesn't really read linearly. The idea of this new tutorial is to take you through building a reasonable sample app.
-
-* **Completed:** [Create React Native App](https://facebook.github.io/react-native/blog/2017/03/13/introducing-create-react-native-app.html), a better workflow to get started with React Native without first installing Xcode or Android Studio. Owners: [Adam Perry](https://github.com/dikaiosune), [Héctor Ramos](https://twitter.com/hectorramos).
-    * The goal is to make it simpler to set up new applications. It should be possible to create a new React Native app without first installing Xcode or Android Studio.
 
 Thanks to all the individuals and companies helping out with the projects on this roadmap!
 
