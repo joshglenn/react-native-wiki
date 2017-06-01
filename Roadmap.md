@@ -19,9 +19,9 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 * Faster app reloads during development. Owners: [cpojer](https://twitter.com/cpojer). ETA: March
     * We'll focus on rewriting packager internals and building updatable bundles so that in development mode only the changed files have to be sent to the device.
-* Better templates for creating new apps. Owner: [Martin Konicek](https://twitter.com/martinkonicek). ETA: March
+* Better templates for creating new apps. Owner: [Héctor Ramos](https://twitter.com/hectorramos). ETA: June
     * Xcode, for example, lets you create a new app with stack or tab navigation via UI. It should be easy to do this in React Native too.
-    * This is now available, but has not yet been documented.
+    * [Martin Konicek](https://twitter.com/martinkonicek) has already implemented this and it is now available, but we have yet to write documentation. Héctor is working on some default templates.
 * A new React Native tutorial. Owner: [Héctor Ramos](https://twitter.com/hectorramos). ETA: June
     * Currently there is a tutorial but it is doing double duty as reference material because it doesn't really read linearly. The idea of this new tutorial is to take you through building a reasonable sample app.
 
