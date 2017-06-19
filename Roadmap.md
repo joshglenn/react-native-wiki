@@ -16,13 +16,13 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 
 ## Core Performance
 
-* [ ] Improved packager. Owner: [Christoph Pojer](https://twitter.com/cpojer). ETA: June
-    * We are working on further improving stability, reliability and performance of React Native's packager. The precise form this improvement should take is not yet clear. We'll have more exciting news to share in the near future!
 * [ ] Turn on Nodes by default for new React Native apps. Owner: [Aaron Chiu](https://github.com/AaaChiuuu). ETA: June
     * Nodes is a new mechanism for layout that should improve performance and fix several longstanding dysfunctions.
     * It's currently available but has to be explicitly enabled. We need it to be compatible with existing features before flipping it to the default.
 * Significantly improve performance, focusing on Android. Owner: [Aaron Chiu](https://github.com/AaaChiuuu). ETA: June
     * There's a number of performance improvements so this breaks down into a lot of smaller issues.
+* [X] Improved packager. Owner: [Christoph Pojer](https://twitter.com/cpojer). ETA: [Completed](http://github.com/facebook/metro-bundler)
+    * We are working on further improving stability, reliability and performance of React Native's packager. The packager has now been moved out of core React Native: introducing [Metro Bundler](http://github.com/facebook/metro-bundler).
 * [X] Share C++ code between Android and iOS bridges. Owner [Marc Horowitz](https://github.com/mhorowitz). ETA: Completed, available in 0.44
     * Building the C++ bridge on top of a common code base reduces code duplication, makes the two platforms more consistent, makes it faster to iterate on the lower layers of the bridge, and enables efficient use of cross-platform C++ modules.
     * For code using documented React Native interfaces, this should be an invisible change.
@@ -43,4 +43,3 @@ The React Native roadmap can be broken down into three key priorities: adding fu
 Thanks to all the individuals and companies helping out with the projects on this roadmap!
 
 If you have suggestions for features that you think would be valuable on the roadmap, check out [Canny](https://react-native.canny.io/feature-requests/), where you can suggest new features and discuss existing proposals, or contact [@hectorramos](https://twitter.com/hectorramos).
-
