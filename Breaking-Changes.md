@@ -20,6 +20,12 @@ When adding a new breaking change, follow this template:
 
 # master
 
+### D5078004, D5137181 [ReactNative] Update okhttp3 to 3.6.0 - *@emilsj in FB*
+- **Who does this affect**: The largest change is that websockets moved into the main package and saw some API changes.
+- **How to migrate**:
+- **Why make this breaking change**: 
+- **Severity (number of people affected x effort)**:
+
 ### D4611211 [ReactNative][Android][breaking] move NativeModule initialization off UI thread - @AaaChiuuu
 *@aaronechiu in FB*
 - **Who does this affect**: Native modules which need initialization on the UI thread.
