@@ -20,6 +20,15 @@ When adding a new breaking change, follow this template:
 
 # master
 
+```
+### D5484225 createClass codemod
+This is a codemod that replaces `React.createClass` with an ES6 class when possible, and falls back to the separate `create-react-class` npm module when not possible. Flow and Jest tests passed.
+- **Who does this affect**: It should not introduce breaking changes, but as it touched a lot of files we are making a note of it here.
+- **How to migrate**: No migration necessary. If you're interested in doing this on your own projects, take a look at [react-codemod](https://github.com/reactjs/react-codemod#explanation-of-the-new-es2015-class-transform-with-property-initializers).
+- **Why make this breaking change**: This is part of the move to React 16.
+- **Severity (number of people affected x effort)**:
+```
+
 ### D5078004, D5137181 [ReactNative] Update okhttp3 to 3.6.0 - *@emilsj in FB*
 - **Who does this affect**: The largest change is that websockets moved into the main package and saw some API changes.
 - **How to migrate**:
