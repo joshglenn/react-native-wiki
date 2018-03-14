@@ -7,11 +7,11 @@ Ultimately, a core team member will need to look at the PR before making the dec
 These PRs are labeled "Core Team". They are usually submitted by core contributors, or have been escalated by core contributors.
 
 - [Review: Approved](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22+review%3Aapproved)
-- [Needs Review](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22+review%3Anone)
-- [Review status: ANY](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22)
+- [Review: None](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22+review%3Anone)
+- [All core team PRs regardless of review status](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22)
 
-- [Imported but remain open](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+-label%3A%22Import+Failed%22+label%3A%22Import+Started%22+)
-- [Import failed](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+label%3A%22Import+Failed%22+)
+- [PRs where the import started, but the PR remains open](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+-label%3A%22Import+Failed%22+label%3A%22Import+Started%22+)
+- [PRs where the import failed](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+label%3A%22Import+Failed%22+)
 
 ## Medium priority
 
