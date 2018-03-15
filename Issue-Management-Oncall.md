@@ -12,6 +12,16 @@ The oncall rotation is as follows:
 
 ## Oncall Playbook
 
+We place a higher priority on pull requests over issues. PRs indicates a higher level of commitment to the project and it is respectful of the author's time to look into each PR as soon as possible.
+
+### Triaging Pull Requests
+
+Take a look at our [Pull Request Priority](https://github.com/facebook/react-native/wiki/Pull-Request-Priority) wiki.
+
+One of the challenges that we face in the React Native project is that the surface area for a PR may be too large for any one person to review. One PR may introduce changes to JavaScript, iOS, and Android. Even focused PRs may have unforeseen performance considerations. We tend to err against importing PRs unless the value add is clear.
+
+We are also working towards slimmening down the core React Native package, therefore we are reluctant to import PRs that may work best as a third party module.
+
 ### Triaging Issues
 
 - Go through recently opened issues and add labels to issues that require attention from the original author:
