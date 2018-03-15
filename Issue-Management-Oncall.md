@@ -10,6 +10,8 @@ The oncall rotation is as follows:
 - Triage Pull Requests
 - Support Releases
 
+_Note:_ Issue Managers do not necessarily have the necessary access level to import PRs, so we might end up splitting this into multiple oncalls. For simplicity's sake, however, I'll focus on describing what I personally do on a day to day basis. -@hramos
+
 ## Oncall Playbook
 
 We place a higher priority on pull requests over issues. PRs indicates a higher level of commitment to the project and it is respectful of the author's time to look into each PR as soon as possible.
