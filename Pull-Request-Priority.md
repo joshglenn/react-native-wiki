@@ -4,7 +4,7 @@ Ultimately, a core team member will need to look at the PR before making the dec
 
 ## High priority PRs
 
-These PRs are labeled "Core Team". They are usually submitted by core contributors, or have been escalated by core contributors.
+These PRs are labeled ["Core Team"](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+label%3A%22Core+Team%22). They are usually submitted by core contributors, or have been escalated by core contributors.
 
 - [Review: Approved](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22+review%3Aapproved)
 - [Review: None](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22CLA+Signed%22+sort%3Acreated-desc+NOT+%22WIP%22+in%3Atitle+-label%3A%22Import+Started%22+-label%3A%22Import+Failed%22+review%3Anone)
