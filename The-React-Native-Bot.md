@@ -24,12 +24,22 @@ We use GitHub issues strictly for tracking bug reports. Sometimes we'll get an i
 
 This is where the bot comes in. If it finds an issue with a `"For Stack Overflow :question:"` label, it will automatically close the issue and leave a comment asking the author to post their question over there.
 
+## Closing issues that need more information
+
+If an issue has not been updated in over 7 days and it has a `"No Template :clipboard:"` label, the bot will close the issue and leave a comment.
+
+Ideally, the bot would check if the template has been used whenever the issue is edited, but we're not there yet. So we rely on maintainers to manually remove the label for the time being.
+
+## Exceptions
+
+The bot will avoid closing issues that are marked as `"Core Team"` or `"For Discussion"`. This provides us with a escape valve whenever a maintainer notices an issue that may deviate from the template for a good reason (i.e. a discussion that is worth keeping on the repo), or when the issue really needs further attention from the core contributors team.
+
 # Pull Request Management
 
 ## Labeling PRs based on keywords in the title
 
 PRs with "iOS" in the title will get labeled as `"iOS :iphone:"` issues. Pretty straightforward. Just like with Issues.
 
-# How?
+# How does it work?
 
 The bot runs every five minutes. In most cases, it will only check issues or PRs opened or updated within the last day or so. You can learn more by reading through the [source code](https://github.com/hramos/iceboxer).
