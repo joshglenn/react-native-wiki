@@ -38,7 +38,29 @@ The bot will avoid closing issues that are marked as `"Core Team"` or `"For Disc
 
 ## Labeling PRs based on keywords in the title
 
-PRs with "iOS" in the title will get labeled as `"iOS :iphone:"` issues. Pretty straightforward. Just like with Issues.
+Just like with Issues, PRs with "iOS" in the title will get labeled as `"iOS :iphone:"` issues. Pretty straightforward...
+
+## Labeling PRs based on release notes
+
+...but we're not done yet. The [PULL_REQUEST_TEMPLATE](https://github.com/facebook/react-native/blob/master/.github/PULL_REQUEST_TEMPLATE.md) asks contributors to write their own release notes. The bot uses these to figure out additional, useful labels such as `"Bug Fix :bug:"` or `"Breaking Change :boom:"`, or even `"Android"` if the title did not already mention it.
+
+## Flagging PRs that lack release notes
+
+Of course, if no release notes are present, the bot cannot properly tag a PR. In these cases, the bot will politely nag the contributor to add these to their PR.
+
+## Flagging PRs that lack test plans
+
+Oh no. We can't permit a PR to be landed without a sane test plan. These make the bot quite unhappy, and the bot will add a "No Test Plan :clipboard:" label. That will show 'em.
+
+## Flagging large PRs
+
+I mean... I guess it's OK. Thank you for the pretty significant contribution. We'll try to review it... as soon as we can... maybe we can get some smaller PRs in first?
+
+Seriously, we don't want to dissuade large contributions, and in many cases, it's OK for a PR to touch a large number of lines. The bot just wants to let you know that, well, your PR is quite big and it may take longer to review.
+
+## Flagging PRs by core contributors
+
+If you've sent some quality PRs our way or are actively involved in the project, the bot may flag your PR as `"Core Team"`. Ideally, maintainers look at these PRs first and foremost. Look at this as an incentive for actively involved contributors ❤️ .
 
 # How does it work?
 
