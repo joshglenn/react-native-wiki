@@ -35,7 +35,8 @@ Coarsely, issues can be separated into two main groups:
 
 - Regressions
 - Unexpected Behavior
-  This last group describes issues that are not necessarily *bugs* per-se. A good example of this is `zIndex`, which although it works the same in React Native as it does on web, the behavior is not necessarily what people might expect when elements are not siblings of each other ([#698](https://github.com/facebook/react-native/issues/698)).
+
+This last group describes issues that are not necessarily *bugs* per-se. A good example of this is `zIndex`, which although it works the same in React Native as it does on web, the behavior is not necessarily what people might expect when elements are not siblings of each other ([#698](https://github.com/facebook/react-native/issues/698)).
 
 Most issues will fall into this last bucket. It's unfortunate that the bucket is so coarse, and it does make it harder to prioritize issues that need to be acted on. Ultimately, issues in this bucket will either be the community's responsibility (if you'd like X behavior to change, please code it), or the core team responsibility's (if we don't change how X behaves, people will be endlessly frustrated).
 
@@ -44,11 +45,20 @@ On the other hand, issues that fall into the `Regression` bucket are easier to p
 Therefore, your next task is to surface issues that describe regressions:
 
 - Severity: If the issue describes a behavior that *used to work*, but *broke or changed* in a recent version, please tag them as `Regression`s. 
-  We do not have a label for issues that do not describe a regression as the category is too broad.
+
+We do not have a label for issues that do not describe a regression as the category is too broad.
 
 - Lowest priority: go through issues and add secondary labels that might be missing:
-  - Platform labels: `iOS`, `Android`, `Windows`, `tvOS`, `JavaScript`. The bot adds a label to issues based on naive issue title string matching, meaning it misses any context from the body of the issue.
+
+Platform labels: `iOS`, `Android`, `Windows`, `tvOS`, `JavaScript`. The bot adds a label to issues based on naive issue title string matching, meaning it misses any context from the body of the issue.
 
 
 ## Contacting the Oncall
 
+TBD
+
+## Week of 03/19/2018
+
+Issues to close:
+
+- No updates in a week, tagged NMI: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%3Agrey_question%3ANeeds+More+Information%22+updated%3A%3C%3D2018-03-12+
