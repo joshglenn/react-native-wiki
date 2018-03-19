@@ -22,13 +22,13 @@ These PRs have not been escalated using the "Core Team" label, but are worth fol
 
 - [Review: Approved](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22CLA+Signed%22+sort%3Acreated-desc+-label%3A%22Import+Failed%22+review%3Aapproved+)
 
-- [Fixes a regression](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22CLA+Signed%22+sort%3Acreated-desc+label%3A%22Regression+%3Awarning%3A%22+)
+- [Fixes a regression](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22CLA+Signed%22+sort%3Acreated-desc+label%3A%22%3Awarning%3ARegression%22+)
 
 ## Low priority
 
 Non-core PRs that have not been imported or reviewed and do not fix a regression are generally looked at last.
 
-- [Review: None](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22CLA+Signed%22+sort%3Acreated-asc+-label%3A%22Import+Failed%22+-label%3A%22Regression+%3Awarning%3A%22+review%3Anone+)
+- [Review: None](https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22CLA+Signed%22+sort%3Acreated-asc+-label%3A%22Import+Failed%22+-label%3A%22%3Awarning%3ARegression%22+review%3Anone+)
 
 ## No priority
 
