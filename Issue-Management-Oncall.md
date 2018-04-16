@@ -1,8 +1,9 @@
-The current oncall is: @hramos.
+The current oncall is: none. Interested in helping out? Reach out to @hramos.
 
 The oncall rotation is as follows:
 
 - @hramos
+- You?
 
 ## Oncall Responsibilities
 
@@ -57,12 +58,12 @@ Platform labels: `iOS`, `Android`, `Windows`, `tvOS`, `JavaScript`. The bot adds
 
 TBD
 
-## Week of 04/02/2018
+## Week of 04/16/2018
 
 Issues to close:
 
-- No updates in a week, tagged NMI: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%3Agrey_question%3ANeeds+More+Information%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+updated%3A%3C%3D2018-03-26+
+- No updates in a week, tagged NMI: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%3Agrey_question%3ANeeds+More+Information%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+updated%3A%3C%3D2018-04-09+
 
-- No updates in a week, no template: https://github.com/facebook/react-native/issues?q=is%3Aissue+label%3A%22%3Aclipboard%3ANo+Template%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+updated%3A%3C%3D2018-03-26+is%3Aopen
+- No updates in a week, no template: https://github.com/facebook/react-native/issues?q=is%3Aissue+label%3A%22%3Aclipboard%3ANo+Template%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+updated%3A%3C%3D2018-04-09+is%3Aopen
 
-- No updates in a week, no repro steps: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22%3Aclipboard%3ANeeds+Repro+Steps%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+updated%3A%3C%3D2018-03-26+is%3Aopen+
+- No updates in a week, no repro steps: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22%3Aclipboard%3ANeeds+Repro+Steps%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+updated%3A%3C%3D2018-04-09+is%3Aopen+
