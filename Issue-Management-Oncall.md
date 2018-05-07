@@ -60,6 +60,11 @@ TBD
 
 ## Week of 05/07/2018
 
+Status: @hramos worked on a different project for a month and was not around to manage issues
+
+628 Open Issues at week open 
+203 Open PRs at week open.
+
 Issues to close:
 
 - No updates in a week, tagged NMI: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%3Agrey_question%3ANeeds+More+Information%22+-label%3A%22Core+Team%22+-label%3A%22For+Discussion%22+-label%3A%22Good+first+issue%22+updated%3A%3C%3D2018-04-30+
