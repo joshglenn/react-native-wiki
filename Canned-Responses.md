@@ -14,8 +14,6 @@ We commonly get new reports for issues in older versions of React Native. While 
 
 ```
 It looks like your issue may refer to an older version of React Native. Can you reproduce the issue on the [latest release](https://github.com/facebook/react-native/releases/latest)?
-
-Thank you for your contributions.
 ```
 
 Please apply the "Old Version" label as well.
