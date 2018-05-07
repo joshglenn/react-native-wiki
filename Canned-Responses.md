@@ -10,9 +10,11 @@ Use this when a question should be redirected to Stack Overflow. Note that apply
 
 We commonly get new reports for issues in older versions of React Native. While it is quite possible that the issue may still exist in the latest release, it's the reporter's responsibility to verify the issue has not been fixed before reporting it. Therefore, feel free to post the following whenever a new issue is reported for a release that is not equal or newer to the tag listed at https://github.com/facebook/react-native/releases/latest:
 
-> Thanks for posting this! It looks like your issue may refer to an older version of React Native. Can you reproduce the issue on the [latest_release](https://github.com/facebook/react-native/releases/latest)?
-> 
-> Thank you for your contributions.
+```
+Thanks for posting this! It looks like your issue may refer to an older version of React Native. Can you reproduce the issue on the [latest release](https://github.com/facebook/react-native/releases/latest)?
+
+Thank you for your contributions.
+```
 
 Please apply the "Old Version" label as well.
 
