@@ -27,3 +27,23 @@ If an issue flagged as being for an old version has not been corrected after 7 d
 ```
 I am closing this issue as the reporter has not yet confirmed the issue exists in the latest release. If you have reproduced this issue in the latest release and are interested in fixing it, please open a new issue with up to date information. Thanks.
 ```
+
+**Did not use template**:
+
+Use this when a issue does not follow the template.
+
+```
+It looks like your issue may be incomplete. Are all the fields required by the [Issue Template](https://raw.githubusercontent.com/facebook/react-native/master/.github/ISSUE_TEMPLATE.md) filled out?
+      
+If you believe your issue contains all the relevant information, let us know in order to have a maintainer remove the No Template label.
+```
+
+The bot should add this comment automatically.
+
+**Did not use template, close**:
+
+Use this when a issue was flagged for not using the template, and still has not been fixed after seven days:
+
+```
+It has been a while since a maintainer flagged this issue for not following the [Issue Template](https://raw.githubusercontent.com/facebook/react-native/master/.github/ISSUE_TEMPLATE.md). I will go ahead and close it. If you are interested in fixing this, please submit a new issue will all the relevant information.
+```
