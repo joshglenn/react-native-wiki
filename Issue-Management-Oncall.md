@@ -75,4 +75,4 @@ Issues to close:
 
 Issues that need followup:
 
-- No labels: https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+no%3Alabel
+- No labels: https://github.com/facebook/react-native/issues?q=is%3Aissue+no%3Alabel+is%3Aopen
