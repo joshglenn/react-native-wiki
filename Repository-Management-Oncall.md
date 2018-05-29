@@ -83,6 +83,7 @@ Issues that need followup:
 Pull requests that need followup:
 
 - Core team, import started, remains open: https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22Import+Started%22
+- Import started, remains open: https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Import+Started%22
 
 
 
