@@ -1,9 +1,11 @@
-The current oncall is: none. Interested in helping out? Reach out to @hramos.
+The current oncall is: @hramos. 
 
 The oncall rotation is as follows:
 
 - @hramos
 - You?
+
+Interested in helping out? Reach out to @hramos.
 
 ## Oncall Responsibilities
 
@@ -77,6 +79,11 @@ Issues that need followup:
 
 - No labels: https://github.com/facebook/react-native/issues?q=is%3Aissue+no%3Alabel+is%3Aopen
 - Issues with a PR Pending (close if PR has been merged): https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%3Aclock1%3APR+Pending%22
+
+Pull requests that need followup:
+
+- Core team, import started, remains open: https://github.com/facebook/react-native/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+label%3A%22Core+Team%22+label%3A%22Import+Started%22
+
 
 
 ## Week of 05/21/2018
