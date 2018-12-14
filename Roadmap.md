@@ -1,2 +1,3 @@
-Please visit the [React Native blog](http://facebook.github.io/react-native/blog/) where you may find monthly updates from core contributors. We hope these notes will help you understand what is being worked on.
+The [Open Source Roadmap](http://facebook.github.io/react-native/blog/2018/11/01/oss-roadmap) has been published to the React Native blog.
 
+We will be tracking progress on our roadmap using [GitHub Projects](https://github.com/facebook/react-native/projects).
