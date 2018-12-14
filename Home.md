@@ -1,4 +1,4 @@
-# [Open Source Roadmap](https://github.com/facebook/react-native/wiki/Roadmap)
+# Open Source Roadmap
 
 The [Open Source Roadmap](http://facebook.github.io/react-native/blog/2018/11/01/oss-roadmap) has been published to the React Native blog.
 
