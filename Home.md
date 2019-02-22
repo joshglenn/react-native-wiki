@@ -1,9 +1,5 @@
-# Open Source Roadmap
+Welcome to the React Native wiki for contributors.
 
-The [Open Source Roadmap](http://facebook.github.io/react-native/blog/2018/11/01/oss-roadmap) has been published to the React Native blog.
+If you are looking for more information on using React Native, you may visit our web site at https://facebook.github.com/react-native.
 
-We will be tracking progress on our roadmap using [GitHub Projects](https://github.com/facebook/react-native/projects).
-
-# Docs
-
-If you're looking for React Native docs, they are available in the [React Native website](https://facebook.github.io/react-native).
+If you'd like to learn more about what we're working on, please take a look at [our roadmap](https://github.com/facebook/react-native/wiki/Roadmap).
