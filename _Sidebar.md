@@ -1,4 +1,7 @@
 - [**React Native website**](https://facebook.github.com/react-native)
 - [**Roadmap**](https://github.com/facebook/react-native/wiki/Roadmap)
+- [**Changelog**](https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md)
+- [**React Native Releases**](https://github.com/react-native-community/react-native-releases)
+- [**Discussions and Proposals**](https://github.com/react-native-community/discussions-and-proposals)
 - [**Contributing**](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md)
 - [**Code of Conduct**](https://code.fb.com/codeofconduct/)
