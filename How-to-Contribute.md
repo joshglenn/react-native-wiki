@@ -85,7 +85,7 @@ Other scripts might need to be run directly or using Node:
 
 Tests help us prevent regressions from being introduced to the codebase. We recommend running `yarn test` or the platform-specific scripts above to make sure you don't introduce any regressions as you work on your change.
 
-The GitHub repository is [continuously tested](Tests.md#continuous-testing) using Circle and Appveyor, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/master) and pull requests. You can learn more about running and writing tests in the [Tests wiki](https://github.com/facebook/react-native/wiki/Tests).
+The GitHub repository is [continuously tested](Tests#continuous-testing) using Circle and Appveyor, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/master) and pull requests. You can learn more about running and writing tests in the [Tests wiki](https://github.com/facebook/react-native/wiki/Tests).
 
 ## Coding Style
 
