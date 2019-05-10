@@ -2,7 +2,7 @@ Thank you for your interest in contributing to React Native! From commenting on 
 
 If you are eager to start contributing code right away, we have a list of [good first issues](https://github.com/facebook/react-native/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. As you gain more experience and demonstrate a commitment to evolving React Native, you may be granted issue management permissions in the main repository.
 
-## Pull Requests
+## Sending a Pull Request
 
 Code-level contributions to React Native generally come in the form of [a pull request](https://help.github.com/en/articles/about-pull-requests). The process of proposing a change to React Native can be summarized as follows:
 
@@ -15,11 +15,52 @@ Code-level contributions to React Native generally come in the form of [a pull r
 7. Create a pull request to the React Native repository.
 8. Review and address comments on your pull request.
    1. A bot may comment with suggestions. Generally we ask you to resolve these first before a maintainer will review your code.
-9. If you haven't already, complete the Contributor License Agreement ("CLA").
+9. If you haven't already, complete the [Contributor License Agreement ("CLA")](#contributor-license-agreement).
 
 If all goes well, your pull request will be merged. If it is not merged, maintainers will do their best to explain their reasoning.
 
 If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started](https://github.com/facebook/react-native/wiki/Pull-Requests#getting-ready-to-submit-your-first-pull-request). For more detailed information on how pull requests are handled, see the [Pull Requests wiki](https://github.com/facebook/react-native/wiki/Pull-Requests).
+
+### Contributor License Agreement
+
+In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)](https://github.com/facebook/react-native/wiki/Contributor-License-Agreement). You only need to do this once to work on any of Facebook's open source projects. It only takes a minute so you can do it while you wait for your dependencies to install.
+
+## Contribution Prerequisites
+
+- You have [Node](https://nodejs.org/) installed at v8.3.0+ and [Yarn](https://yarnpkg.com/en/) at v1.2.0+.
+- You have the [React Native CLI](https://github.com/react-native-community/cli#react-native-cli) installed.
+- You have [Watchman](https://facebook.github.io/watchman/) installed.
+- You are familiar with [Git](https://help.github.com/articles/set-up-git/).
+
+> You may refer to the [Getting Started](http://facebook.github.io/react-native/docs/getting-started) guide for installation instructions
+
+In addition to these, there may be additional dependencies for the platform you are building for.
+
+### Android Prerequisites
+
+- You have [Android Studio](https://developer.android.com/studio/index.html) installed at v3.2.0+.
+- You have [Oracle JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or [OpenJDK 8](http://openjdk.java.net/install/).
+
+You can use Android Studio's SDK Manager to install the following dependencies.
+
+- Android SDK Platform 28, Android 9.0 (Pie)
+- Android SDK Build-Tools 28.0.3
+- Android Support Repository 28+
+- Android NDK r17c
+
+These packages are available under the SDK Platforms and SDK Tools tabs. You may need to click on "Show Package Details" to see them. You can also use the following links to download the Android NDK r17c directly:
+
+- [Mac OS (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-darwin-x86_64.zip)
+- [Linux (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-linux-x86_64.zip)
+- [Windows (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-windows-x86_64.zip)
+- [Windows (32-bit)](http://dl.google.com/android/repository/android-ndk-r17c-windows-x86.zip)
+
+### iOS Prerequisites
+
+- You have Xcode installed at v10.2.0+.
+- You have the Xcode Command Line Tools installed.
+
+> The Command Line Tools can be installed through the Locations panel in Xcode's Preferences.
 
 ## Tests
 
