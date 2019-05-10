@@ -78,7 +78,7 @@ git remote add fork https://github.com/your_username/react-native.git
 > *If the above seems new to you, do not be scared. You can access a shell through the Terminal application on macOS and linux, or PowerShell on Windows.*
 
 
-A new `react-native/` directory will be created with the contents of the core React Native repository. This directory is actually a clone of the React Native git repository. It is set up with two remotes: `origin` for the upstream @facebook/react-native repository, and `fork` for the fork of React Native on your own GitHub account.
+A new `react-native/` directory will be created with the contents of the core React Native repository. This directory is actually a clone of the React Native git repository. It is set up with two remotes: `origin` for the upstream https://github.com/facebook/react-native repository, and `fork` for the fork of React Native on your own GitHub account.
 
 ### **3. Create a branch**
 
