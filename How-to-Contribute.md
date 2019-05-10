@@ -62,9 +62,30 @@ These packages are available under the SDK Platforms and SDK Tools tabs. You may
 
 > The Command Line Tools can be installed through the Locations panel in Xcode's Preferences.
 
-## Tests
+## Development Workflow
 
-Tests help us prevent regressions from being introduced to the codebase. The GitHub repository is continuously tested using Circle and Appveyor, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/master) and pull requests. You can learn more about running and writing tests in the [Tests wiki](https://github.com/facebook/react-native/wiki/Tests).
+After cloning React Native, run `yarn` to fetch its dependencies. Then, you can run several commands:
+
+- `yarn start` starts the Metro packager server.
+- `yarn lint` checks the code style.
+- `yarn format` automatically formats your code.
+- `yarn test` runs the JavaScript test suite.
+- `yarn test --watch` runs an interactive JavaScript test watcher.
+- `yarn test <pattern>` runs JavaScript tests with matching filenames.
+- `yarn flow` runs the [Flow](https://flowtype.org/) typechecks.
+- `yarn flow-check-android` does a full Flow check over `*.android.js` files.
+- `yarn flow-check-ios` does a full Flow check over `*.ios.js` files.
+
+Other scripts might need to be run directly or using Node:
+
+- `scripts/objc-test-ios.sh test` runs the iOS test suite.
+- `node ./scripts/run-ci-e2e-tests.js --js --android --ios` runs the end-to-tend JavaScript, Android, and iOS tests.
+
+## Testing your Changes
+
+Tests help us prevent regressions from being introduced to the codebase. We recommend running `yarn test` or the platform-specific scripts above to make sure you don't introduce any regressions as you work on your change.
+
+The GitHub repository is [continuously tested](Tests.md#continuous-testing) using Circle and Appveyor, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/master) and pull requests. You can learn more about running and writing tests in the [Tests wiki](https://github.com/facebook/react-native/wiki/Tests).
 
 ## Coding Style
 
