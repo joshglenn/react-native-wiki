@@ -3,7 +3,7 @@
 - [**Releases**](https://github.com/react-native-community/react-native-releases)
 - [**React Native website**](https://facebook.github.com/react-native)
 
-## [**Contributing to React Native**](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md)
+## [**Contributing**](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md)
   - [**Code of Conduct**](https://code.fb.com/codeofconduct/)
   - [**How to Contribute Code**](https://github.com/facebook/react-native/wiki/How-to-Contribute)
   - [**Pull Requests**](https://github.com/facebook/react-native/wiki/Pull-Requests)
