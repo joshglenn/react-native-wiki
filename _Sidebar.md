@@ -5,12 +5,12 @@
 
 **Contributing**
 - [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md)
-- [Code of Conduct](https://code.fb.com/codeofconduct/)
 - [How to Contribute Code](https://github.com/facebook/react-native/wiki/How-to-Contribute)
 - [Pull Requests](https://github.com/facebook/react-native/wiki/Pull-Requests)
 - [Testing your Changes](https://github.com/facebook/react-native/wiki/Tests)
 - [Discussions and Proposals](https://github.com/react-native-community/discussions-and-proposals)
 - [Release Coordination](https://github.com/react-native-community/react-native-releases)
+- [Code of Conduct](https://code.fb.com/codeofconduct/)
 - [Contributor License Agreement](https://github.com/facebook/react-native/wiki/Contributor-License-Agreement)
 
 **Documentation**
