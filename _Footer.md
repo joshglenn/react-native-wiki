@@ -1,1 +1,1 @@
-React Native • [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md) • [Website](https://facebook.github.com/react-native)
+React Native • [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md) • [Getting Started](http://facebook.github.io/react-native/docs/getting-started) - [Website](https://facebook.github.com/react-native)
