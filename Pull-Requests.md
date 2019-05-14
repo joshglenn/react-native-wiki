@@ -42,6 +42,12 @@ Facebook employees are using a custom browser extension for GitHub that can impo
 
 ![Screenshot of the custom browser extension. Two buttons are visible: a green one that is titled "Import to Phabricator", and a grey one with "Land to fbsource" in red text. ](images/Importing-Pull-Requests.png)
 
+**Appendix: Bots**
+
+* **@pull-bot**: The Pull Bot automates several aspects of the pull request review process, such as making sure test plans and changelogs are used. It is based on Danger, and it is configured through the [`dangerfile`](https://github.com/facebook/react-native/blob/master/bots/dangerfile.js).
+* **@analysis-bot**: Another helpful process that aids in pull request reviews, focusing mostly on lint and Flow checks. It is configured to run as part of the CI processes whenever a commit is added to a pull request.
+
+
 # Getting Ready to Submit Your First Pull Request
 
 These instructions provide the step-by-step process to set up your machine to make contributions to the core React Native repository, and create your first pull request.
