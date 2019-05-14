@@ -36,13 +36,13 @@ As you work through these issues, you will start to get a better understanding o
 
 Next up, we need to determine how severe the issue is.
 
-* Is this a potential release blocker?
+* _Is this a potential **release blocker**?_
   These issues should be addressed within the next week or two, as they may prevent release coordinators from cutting a clean release candidate. Issues that might be labeled as such could be regressions that break one of our pre-commit tests. Avoid flagging an issue as a release blocker if it has been around for some time (if the issue is already present in one or more releases, it cannot be a RC blocker by definition).
-* Does this cause the app to crash? 
+* _Does this cause the app to **crash**?_
   These are issues that cause a React Native to crash unexpectedly. These may lead to a poor user experience if not caught early. 
-* Is this a bug? 
+* _Is this a **bug**?_
   Describes something that is not working as expected. It'd be nice to get it fixed at some point, but it's not serious enough to block the release train. Even if the issue causes a crash, if there's a reasonable workaround available, it can be classified as a regular bug.
-* Is this a good first issue?
+* _Is this a **good first issue**?_
   These are issues that do not require a deep understanding and familiarity with the repo. GitHub will surface these issues to folks interested in becoming contributors. Keep in mind that issues labeled this way may not end up getting fixed right away.
 
 ## Labels
