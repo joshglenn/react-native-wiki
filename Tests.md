@@ -1,5 +1,6 @@
 * [Running Tests](#running-tests)
 * [Writing Tests](#writing-tests)
+* [Continuous Testing](#continuous-testing)
 
 ## Running Tests
 
