@@ -5,6 +5,8 @@
 
 **Contributing**
 - [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md)
+- [Issues](https://github.com/facebook/react-native/wiki/Issues)
+  - [Triaging Issues](https://github.com/facebook/react-native/wiki/Issues#triaging-issues)
 - [How to Contribute Code](https://github.com/facebook/react-native/wiki/How-to-Contribute)
 - [Pull Requests](https://github.com/facebook/react-native/wiki/Pull-Requests)
   - [Handling PRs](https://github.com/facebook/react-native/wiki/Pull-Requests#handling-pull-requests)
