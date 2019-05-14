@@ -80,21 +80,6 @@ npm run test-ios-e2e
 
 If you work on a component or API that isn't convered by a Detox test, please consider adding one. Detox tests are stored under [`RNTester/e2e/__tests__`](https://github.com/facebook/react-native/tree/master/RNTester/e2e/__tests__).
 
-### Continuous Testing
-
-We use [Appveyor][config-appveyor] and [Circle CI][config-circleci] to automatically run our open source tests. Appveyor and Circle CI will run these tests whenever a commit is added to a pull request, as a way to help maintainers understand whether a code change introduces a regression. The tests also run on commits to the master and `*-stable` branches in order to keep track of the health of these branches.
-
-[config-appveyor]: https://github.com/facebook/react-native/blob/master/.appveyor/config.yml
-[config-circleci]: https://github.com/facebook/react-native/blob/master/.circleci/config.yml
-
-There's another set of tests that run within Facebook's internal test infrastructure. Some of these tests are integration tests defined by internal consumers of React Native (e.g. unit tests for a React Native surface in the Facebook app). These tests run on every commit to the copy of React Native hosted on Facebook's source control. They also run when a pull request is imported to Facebook's source control.
-
-If one of these tests fail, you'll need someone at Facebook to take a look. Since pull requests can only be imported by Facebook employees, whoever imported the pull request should be able to facilitate any details.
-
-> **Running CI tests locally**
->
-> Most open source collaborators rely on Circle CI and Appveyor to see the results of these tests. If you'd rather verify your changes locally using the same configuration as Circle CI, Circle CI provides a [command line interface](https://circleci.com/docs/2.0/local-cli/) with the ability to run jobs locally.
-
 ## Writing Tests
 
 Whenever you are fixing a bug or adding new functionality to React Native, it is a good idea to add a test that covers it. Depending on the change you're making, there are different types of tests that may be appropriate.
@@ -137,3 +122,19 @@ It's a good idea to add an Android unit test whenever you are working on code th
 ### Android Integration Tests
 
 It's a good idea to add an Android integration test whenever you are working on code that needs both JavaScript and Java to be tested in conjunction. The Android integration tests can be found in `ReactAndroid/src/androidTest`. We recommend browsing through these to get an idea of what a good integration test might look like.
+
+## Continuous Testing
+
+We use [Appveyor][config-appveyor] and [Circle CI][config-circleci] to automatically run our open source tests. Appveyor and Circle CI will run these tests whenever a commit is added to a pull request, as a way to help maintainers understand whether a code change introduces a regression. The tests also run on commits to the master and `*-stable` branches in order to keep track of the health of these branches.
+
+[config-appveyor]: https://github.com/facebook/react-native/blob/master/.appveyor/config.yml
+[config-circleci]: https://github.com/facebook/react-native/blob/master/.circleci/config.yml
+
+There's another set of tests that run within Facebook's internal test infrastructure. Some of these tests are integration tests defined by internal consumers of React Native (e.g. unit tests for a React Native surface in the Facebook app). These tests run on every commit to the copy of React Native hosted on Facebook's source control. They also run when a pull request is imported to Facebook's source control.
+
+If one of these tests fail, you'll need someone at Facebook to take a look. Since pull requests can only be imported by Facebook employees, whoever imported the pull request should be able to facilitate any details.
+
+> **Running CI tests locally**
+>
+> Most open source collaborators rely on Circle CI and Appveyor to see the results of these tests. If you'd rather verify your changes locally using the same configuration as Circle CI, Circle CI provides a [command line interface](https://circleci.com/docs/2.0/local-cli/) with the ability to run jobs locally.
+
