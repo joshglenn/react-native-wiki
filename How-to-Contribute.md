@@ -2,7 +2,7 @@ Thank you for your interest in contributing to React Native! From commenting on 
 
 If you are eager to start contributing code right away, we have a list of [good first issues](https://github.com/facebook/react-native/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. As you gain more experience and demonstrate a commitment to evolving React Native, you may be granted issue management permissions in the main repository.
 
-## Contribution Prerequisites
+## Prerequisites
 
 - You have [Node](https://nodejs.org/) installed at v8.3.0+ and [Yarn](https://yarnpkg.com/en/) at v1.2.0+.
 - You have the [React Native CLI](https://github.com/react-native-community/cli#react-native-cli) installed.
