@@ -11,9 +11,9 @@ If you are eager to start contributing code right away, we have a list of [good 
 
 > You may refer to the [Getting Started](http://facebook.github.io/react-native/docs/getting-started) guide for installation instructions
 
-In addition to these, there may be additional dependencies for the platform you are building for.
+In addition to these, there may be additional dependencies for the platform you are building for:
 
-### Android Prerequisites
+### Android:
 
 - You have [Android Studio](https://developer.android.com/studio/index.html) installed at v3.2.0+.
 - You have [Oracle JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or [OpenJDK 8](http://openjdk.java.net/install/).
@@ -27,13 +27,14 @@ You can use Android Studio's SDK Manager to install the following dependencies.
 
 These packages are available under the SDK Platforms and SDK Tools tabs. You may need to click on "Show Package Details" to see them. You can also use the following links to download the Android NDK r17c directly:
 
-- [Mac OS (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-darwin-x86_64.zip)
+- [macOS (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-darwin-x86_64.zip)
 - [Linux (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-linux-x86_64.zip)
 - [Windows (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-windows-x86_64.zip)
 - [Windows (32-bit)](http://dl.google.com/android/repository/android-ndk-r17c-windows-x86.zip)
 
-### iOS Prerequisites
+### iOS:
 
+- You have a Mac running macOS 10.14.3+.
 - You have Xcode installed at v10.2.0+.
 - You have the Xcode Command Line Tools installed.
 
