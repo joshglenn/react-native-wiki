@@ -19,4 +19,4 @@
 - [Getting Started](http://facebook.github.io/react-native/docs/getting-started)
 - [Learn the Basics](http://facebook.github.io/react-native/docs/tutorial)
 - [API Reference](http://facebook.github.io/react-native/docs/components-and-apis)
-- [Where to get help](http://facebook.github.io/react-native/help)
+- [Where to Get Help](http://facebook.github.io/react-native/help)
