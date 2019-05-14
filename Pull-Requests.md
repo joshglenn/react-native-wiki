@@ -46,7 +46,7 @@ Facebook employees are using a custom browser extension for GitHub that can impo
 
 * **@pull-bot**: The Pull Bot automates several aspects of the pull request review process, such as making sure test plans and changelogs are used. It is based on Danger, and it is configured through the [`dangerfile`](https://github.com/facebook/react-native/blob/master/bots/dangerfile.js).
 * **@analysis-bot**: Another helpful process that aids in pull request reviews, focusing mostly on lint and Flow checks. It is configured to run as part of the CI processes whenever a commit is added to a pull request.
-
+* **@facebook-github-bot**: The Facebook GitHub Bot is used across several open source projects. In the case of React Native, you will most likely encounter it when it closes your pull request once your changes have been successfully merged to the React Native repository.
 
 # Getting Ready to Submit Your First Pull Request
 
