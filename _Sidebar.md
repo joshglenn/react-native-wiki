@@ -7,6 +7,8 @@
 - [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md)
 - [How to Contribute Code](https://github.com/facebook/react-native/wiki/How-to-Contribute)
 - [Pull Requests](https://github.com/facebook/react-native/wiki/Pull-Requests)
+  - [Handling PRs](https://github.com/facebook/react-native/wiki/Pull-Requests#handling-pull-requests)
+  - [Sending your first PR](https://github.com/facebook/react-native/wiki/Pull-Requests#getting-ready-to-submit-your-first-pull-request)
 - [Testing your Changes](https://github.com/facebook/react-native/wiki/Tests)
 - [Discussions and Proposals](https://github.com/react-native-community/discussions-and-proposals)
 - [Release Coordination](https://github.com/react-native-community/react-native-releases)
