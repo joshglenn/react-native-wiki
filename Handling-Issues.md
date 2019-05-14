@@ -62,5 +62,3 @@ When unsure of the meaning of a particular label, go to https://github.com/faceb
 **Appendix: Bots**
 
 * **@react-native-bot**: The React Native bot is a tool that helps us automate several processes described in this wiki.
-* **@pull-bot**: The Pull Bot automates several aspects of the pull request review process, such as making sure test plans and changelogs are used. It is based on Danger, and it is configured through the [`dangerfile`](https://github.com/facebook/react-native/blob/master/bots/dangerfile.js).
-* **@analysis-bot**: Another helpful process that aids in pull request reviews, focusing mostly on lint and Flow checks. It is configured to run as part of the CI processes whenever a commit is added to a pull request.
