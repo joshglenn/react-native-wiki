@@ -35,6 +35,6 @@ For more detail, see [How do I make a good changelog?](https://keepachangelog.co
 
 ## Examples	
 
-* `[General][Added] - Add snapToOffsets prop to ScrollView component`
-* `[General][Fixed] - Fix various issues in snapToInterval on ScrollView component`
-* `[iOS][Fixed] - Fix crash in RCTImagePicker`
+* `[General] [Added] - Add snapToOffsets prop to ScrollView component`
+* `[General] [Fixed] - Fix various issues in snapToInterval on ScrollView component`
+* `[iOS][ Fixed] - Fix crash in RCTImagePicker`
