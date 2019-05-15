@@ -1,6 +1,6 @@
 **React Native**
 - [Roadmap](https://github.com/facebook/react-native/wiki/Roadmap)
-- [Changelog](https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md)
+- [Changelog](https://github.com/facebook/react-native/wiki/Changelog)
 - [React Native website](https://facebook.github.com/react-native)
 
 **Contributing**
