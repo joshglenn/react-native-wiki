@@ -1,4 +1,4 @@
-The [changelog for React Native changes](https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md) is hosted as part of the https://github.com/react-native-community/react-native-releases repository. The changelog is curated by the React Native Community. You may also gather more details about the latest releases [on GitHub](https://github.com/facebook/react-native/releases).
+The [changelog for React Native changes](https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md) is curated by the [React Native Community](https://github.com/react-native-community/react-native-releases). You may also gather more details about the latest releases [on GitHub](https://github.com/facebook/react-native/releases).
 
 ## Changelogs in Pull Requests
 
