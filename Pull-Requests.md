@@ -42,11 +42,21 @@ Facebook employees are using a custom browser extension for GitHub that can impo
 
 ![Screenshot of the custom browser extension. Two buttons are visible: a green one that is titled "Import to Phabricator", and a grey one with "Land to fbsource" in red text. ](images/Importing-Pull-Requests.png)
 
-**Appendix: Bots**
+## Bots
 
-* **@pull-bot**: The Pull Bot automates several aspects of the pull request review process, such as making sure test plans and changelogs are used. It is based on Danger, and it is configured through the [`dangerfile`](https://github.com/facebook/react-native/blob/master/bots/dangerfile.js).
-* **@analysis-bot**: Another helpful process that aids in pull request reviews, focusing mostly on lint and Flow checks. It is configured to run as part of the CI processes whenever a commit is added to a pull request.
-* **@facebook-github-bot**: The Facebook GitHub Bot is used across several open source projects. In the case of React Native, you will most likely encounter it when it closes your pull request once your changes have been successfully merged to the React Native repository.
+As you review and work on pull requests, you might encounter comments left by a handful of GitHub bot accounts. These bots have been set up to aid in the pull request review process.
+
+### pull-bot
+
+This pull request linter bot performs basic sanity checks whenever a pull request is created. It might leave a comment on a pull request if it is unable to find a test plan or a changelog in the description, or if it notices that the pull request was not opened against the `master` branch. This bot uses [Danger](https://danger.systems), and its configuration can be found in the [`dangerfile.js`](https://github.com/facebook/react-native/blob/master/bots/dangerfile.js).
+
+### analysis-bot
+
+The code analysis bot collects feedback from tools such as Prettier, eslint, and Flow whenever a commit is added to a pull request. If any of these tools finds issues with the code, the bot will add these as inline review comments on the pull request. Its configuration can be found in the [`code-analysis-bot.js`](https://github.com/facebook/react-native/blob/master/scripts/circleci/code-analysis-bot.js) file.
+
+### facebook-github-bot
+
+The Facebook GitHub Bot is used across several open source projects at Facebook. In the case of React Native, you will most likely encounter it when it pushes a merge commit to master after a pull request is successfully imported to Facebook's internal source control. It will also let authors know if they are missing a Contributor License Agreement.
 
 # Getting Ready to Submit Your First Pull Request
 
