@@ -45,7 +45,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export ANDROID_NDK=$HOME/Library/Android_NDK_r17c/
+export ANDROID_NDK=$HOME/Library/Android/android-ndk-r17c/
 ```
 
 
