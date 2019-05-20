@@ -32,6 +32,23 @@ These packages are available under the SDK Platforms and SDK Tools tabs. You may
 - [Windows (64-bit)](http://dl.google.com/android/repository/android-ndk-r17c-windows-x86_64.zip)
 - [Windows (32-bit)](http://dl.google.com/android/repository/android-ndk-r17c-windows-x86.zip)
 
+#### Environment Variables
+
+Configure the `ANDROID_HOME` and `ANDROID_NDK` environment variables to point to your Android SDK and Android NDK install directories, respectively. You'll also need to update your `PATH` environment variable to include several Android utilities.
+
+The following is an example configuration for a macOS machine:
+
+```
+# ~/.bash_profile
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_NDK=$HOME/Library/Android_NDK_r17c/
+```
+
+
 ### iOS:
 
 - You have a Mac running macOS 10.14.3+.
