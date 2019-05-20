@@ -38,7 +38,7 @@ Configure the `ANDROID_HOME` and `ANDROID_NDK` environment variables to point to
 
 The following is an example configuration for a macOS machine:
 
-```
+```bash
 # ~/.bash_profile
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
