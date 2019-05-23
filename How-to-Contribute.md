@@ -59,7 +59,9 @@ export ANDROID_NDK=$HOME/Library/Android/android-ndk-r17c/
 
 ## Development Workflow
 
-After cloning React Native, run `yarn` to fetch its dependencies. Then, you can run several commands:
+After cloning React Native, open the directory and run `yarn` to install its dependencies.
+
+Then, you can run several commands:
 
 - `yarn start` starts the Metro packager server.
 - `yarn lint` checks the code style.
