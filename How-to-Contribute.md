@@ -72,10 +72,7 @@ Then, you can run several commands:
 - `yarn flow` runs the [Flow](https://flowtype.org/) typechecks.
 - `yarn flow-check-android` does a full Flow check over `*.android.js` files.
 - `yarn flow-check-ios` does a full Flow check over `*.ios.js` files.
-
-Other scripts might need to be run directly or using Node:
-
-- `scripts/objc-test-ios.sh test` runs the iOS test suite.
+- `yarn test-ios` runs the iOS test suite (macOS required).
 - `node ./scripts/run-ci-e2e-tests.js --js --android --ios` runs the end-to-tend JavaScript, Android, and iOS tests.
 
 ## Testing your Changes
