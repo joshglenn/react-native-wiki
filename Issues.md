@@ -8,7 +8,7 @@ The main thing to keep in mind is that we are, at this time, only accepting bug 
 
 Now that you have a better understanding of how we approach the GitHub repository, let's dive into what you can do to help triage GitHub issues in the https://github.com/facebook/react-native repository.
 
-# Triaging Issues
+# Triage
 
 First, [filter out any issues that already contain one of the resolution labels](https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22Bug+Report%22+-label%3A%22Resolution%3A+Needs+More+Information%22+-label%3A%22Resolution%3A+Needs+Repro%22+-label%3A%22Resolution%3A+Old+Version%22+-label%3A%22Resolution%3A+No+Template%22+-label%3A%22Resolution%3A+Missing+Environment+Info%22+-label%3A%22Resolution%3A+For+Stack+Overflow%22).  Then, figure out if the issue contains all the information needed to troubleshoot. This includes a **clear description** of the problem, information about the development **environment** (including the version of React Native being used), and a list of **steps to reproduce** the issue. If any of these are missing, *politely* ask the issue author to update their issue with the necessary information, and add any relevant resolution labels to let others know the issue has been looked at. We aim to always be friendly and helpful and expect the same from every member of our community.
 
