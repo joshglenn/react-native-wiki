@@ -8,6 +8,7 @@
 - [Issues](https://github.com/facebook/react-native/wiki/Issues)
   - [Triaging Issues](https://github.com/facebook/react-native/wiki/Issues#triaging-issues)
 - [How to Contribute Code](https://github.com/facebook/react-native/wiki/How-to-Contribute)
+  - [Building from source](https://github.com/facebook/react-native/wiki/Building-from-source)
 - [Pull Requests](https://github.com/facebook/react-native/wiki/Pull-Requests)
   - [Handling PRs](https://github.com/facebook/react-native/wiki/Pull-Requests#handling-pull-requests)
   - [Sending your first PR](https://github.com/facebook/react-native/wiki/Pull-Requests#getting-ready-to-submit-your-first-pull-request)
