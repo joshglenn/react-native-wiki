@@ -42,6 +42,8 @@ For more detail, see [How do I make a good changelog?](https://keepachangelog.co
 * `[General] [Fixed] - Fix various issues in snapToInterval on ScrollView component`
 * `[iOS] [Fixed] - Fix crash in RCTImagePicker`
 
+### FAQ
+
 * **What if my pull request contains changes to both Android and JavaScript?**
   Use the Android category.
 
@@ -51,5 +53,5 @@ For more detail, see [How do I make a good changelog?](https://keepachangelog.co
 * **What if my pull request contains changes to Android, iOS, and JavaScript?**
   Use the General category if the change is made in a single pull request.
 
-* **What if...?*
+* **What if...?**
   Any changelog entry is better than none. If you are unsure if you have picked the right category, use the "message" field to succinctly describe your change. These entries are used by the [changelog-generator.js](https://github.com/react-native-community/releases/blob/master/changelog-generator.js) script to build a rough draft, which is then edited by a release coordinator. Your notes will be used to add your change to the correct location in the final release notes.
