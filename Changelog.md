@@ -18,19 +18,19 @@ A changelog entry has the following format
 
 The "Category" field may be one of:
 
-* "Android", for changes that affect Android.
-* "iOS", for changes that affect iOS.
-* "General", for changes that do not fit any of the other categories.
-* "Internal", for changes that would not be relevant to developers consuming the release notes.
+* **Android**, for changes that affect Android.
+* **iOS**, for changes that affect iOS.
+* **General**, for changes that do not fit any of the other categories.
+* **Internal**, for changes that would not be relevant to developers consuming the release notes.
 
 The "Type" field may be one of:
 
-* "Added", for new features.	
-* "Changed", for changes in existing functionality.	
-* "Deprecated", for soon-to-be removed features.	
-* "Removed", for now removed features.	
-* "Fixed", for any bug fixes.	
-* "Security", in case of vulnerabilities.	
+* **Added**, for new features.	
+* **Changed**, for changes in existing functionality.	
+* **Deprecated**, for soon-to-be removed features.	
+* **Removed**, for now removed features.	
+* **Fixed**, for any bug fixes.	
+* **Security**, in case of vulnerabilities.	
 
 Finally, the "Message" field may answer "what and why" on a feature level. Use this to briefly tell React Native users about notable changes.
 
