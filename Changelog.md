@@ -18,9 +18,8 @@ A changelog entry has the following format
 
 The "Category" field may be one of:
 
-* "Android"
-* "iOS"
-* "JavaScript"
+* "Android", for changes that affect Android.
+* "iOS", for changes that affect iOS.
 * "General", for changes that do not fit any of the other categories.
 * "Internal", for changes that would not be relevant to developers consuming the release notes.
 
@@ -42,3 +41,15 @@ For more detail, see [How do I make a good changelog?](https://keepachangelog.co
 * `[General] [Added] - Add snapToOffsets prop to ScrollView component`
 * `[General] [Fixed] - Fix various issues in snapToInterval on ScrollView component`
 * `[iOS] [Fixed] - Fix crash in RCTImagePicker`
+
+* **What if my pull request contains changes to both Android and JavaScript?**
+  Use the Android category.
+
+* **What if my pull request contains changes to both Android and iOS?**
+  Use the General category if the change is made in a single pull request.
+
+* **What if my pull request contains changes to Android, iOS, and JavaScript?**
+  Use the General category if the change is made in a single pull request.
+
+* **What if...?*
+  Any changelog entry is better than none. If you are unsure if you have picked the right category, use the "message" field to succinctly describe your change. These entries are used by the [changelog-generator.js](https://github.com/react-native-community/releases/blob/master/changelog-generator.js) script to build a rough draft, which is then edited by a release coordinator. Your notes will be used to add your change to the correct location in the final release notes.
