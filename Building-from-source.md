@@ -95,7 +95,6 @@ Modify your `android/app/build.gradle` to use the `:ReactAndroid` project instea
 ...
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}'
 
     implementation project(':ReactAndroid')
 
