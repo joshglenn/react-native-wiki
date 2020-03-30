@@ -42,16 +42,9 @@ Facebook employees are using a custom browser extension for GitHub that can impo
 
 ## Bots
 
-As you review and work on pull requests, you might encounter comments left by a handful of GitHub bot accounts. These bots have been set up to aid in the pull request review process.
+As you review and work on pull requests, you might encounter comments left by a handful of GitHub bot accounts. These bots have been set up to aid in the pull request review process. See the [Bots Reference](https://github.com/facebook/react-native/wiki/Bots) to learn more.
 
-### pull-bot
+## Pull Request Labels
 
-This pull request linter bot performs basic sanity checks whenever a pull request is created. It might leave a comment on a pull request if it is unable to find a test plan or a changelog in the description, or if it notices that the pull request was not opened against the `master` branch. This bot uses [Danger](https://danger.systems), and its configuration can be found in the [`dangerfile.js`](https://github.com/facebook/react-native/blob/master/bots/dangerfile.js).
-
-### analysis-bot
-
-The code analysis bot collects feedback from tools such as Prettier, eslint, and Flow whenever a commit is added to a pull request. If any of these tools finds issues with the code, the bot will add these as inline review comments on the pull request. Its configuration can be found in the [`code-analysis-bot.js`](https://github.com/facebook/react-native/blob/master/scripts/circleci/code-analysis-bot.js) file.
-
-### facebook-github-bot
-
-The Facebook GitHub Bot is used across several open source projects at Facebook. In the case of React Native, you will most likely encounter it when it pushes a merge commit to master after a pull request is successfully imported to Facebook's internal source control. It will also let authors know if they are missing a Contributor License Agreement.
+* `Merged`: Applied to a closed PR to indicate that its changes have been incorporated into the core repository. This label is necessary because pull requests are not merged directly on GitHub. Instead, a patch with the PR's changes is imported and queued up for code review. Once approved, the result of applying those changes on top of Facebook's internal monorepository gets synced out to GitHub as a new commit. GitHub does not attribute that commit back to the original PR, hence the need for a label that communicates the PR's true status.
+* `Blocked on FB`: The PR has been imported, but the changes have not yet been applied.

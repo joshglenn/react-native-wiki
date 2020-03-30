@@ -26,8 +26,3 @@ Applying one of the following labels may result in a bot interaction. The goal o
 
 * Labels that flat out close an issue with no comment:
   * `Type: Invalid`
-
-### Pull Request Status
-
-* `Merged`: Applied to a closed PR to indicate that its changes have been incorporated into the core repository. This label is necessary because pull requests are not merged directly on GitHub. Instead, a patch with the PR's changes is imported and queued up for code review. Once approved, the result of applying those changes on top of Facebook's internal monorepository gets synced out to GitHub as a new commit. GitHub does not attribute that commit back to the original PR, hence the need for a label that communicates the PR's true status.
-* `Blocked on FB`: The PR has been imported, but the changes have not yet been applied.
