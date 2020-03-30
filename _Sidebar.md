@@ -1,4 +1,4 @@
-- [Website](https://reactnative.dev) ↪
+- [Website](https://reactnative.dev) ↗
 - [Changelog](https://github.com/facebook/react-native/wiki/Changelog)
 - [Roadmap](https://github.com/facebook/react-native/wiki/Roadmap)
 
@@ -17,15 +17,15 @@
 - [Continuous Testing](https://github.com/facebook/react-native/wiki/Tests#continuous-testing)
 
 **More Resources**
-- [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md) ↪
-- [Code of Conduct](https://code.fb.com/codeofconduct/) ↪
+- [Contributor Guide](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md) ↗
+- [Code of Conduct](https://code.fb.com/codeofconduct/) ↗
 - [Contributor License Agreement](https://github.com/facebook/react-native/wiki/Contributor-License-Agreement)
-- [Discussions and Proposals](https://github.com/react-native-community/discussions-and-proposals) ↪
-- [Release Coordination](https://github.com/react-native-community/react-native-releases) ↪
+- [Discussions and Proposals](https://github.com/react-native-community/discussions-and-proposals) ↗
+- [Release Coordination](https://github.com/react-native-community/react-native-releases) ↗
 - [Bots Reference](https://github.com/facebook/react-native/wiki/Bots)
 
 **Documentation**
-- [Introduction](https://reactnative.dev/docs/getting-started) ↪
-- [Environment Setup](https://reactnative.dev/docs/environment-setup) ↪
-- [API Reference](https://reactnative.dev/docs/components-and-apis) ↪
-- [Where to Get Help](https://reactnative.dev/help) ↪
+- [Introduction](https://reactnative.dev/docs/getting-started) ↗
+- [Environment Setup](https://reactnative.dev/docs/environment-setup) ↗
+- [API Reference](https://reactnative.dev/docs/components-and-apis) ↗
+- [Where to Get Help](https://reactnative.dev/help) ↗
