@@ -9,7 +9,7 @@ If you are eager to start contributing code right away, we have a list of [good 
 - You have [Watchman](https://facebook.github.io/watchman/) installed.
 - You are familiar with [Git](https://help.github.com/articles/set-up-git/).
 
-> You may refer to the [Getting Started](http://facebook.github.io/react-native/docs/getting-started) guide for installation instructions
+> You may refer to the [Getting Started](https://reactnative.dev/docs/getting-started) guide for installation instructions
 
 In addition to these, there may be additional dependencies for the platform you are building for:
 
@@ -118,7 +118,7 @@ Code-level contributions to React Native generally come in the form of [a pull r
 
 If all goes well, your pull request will be merged. If it is not merged, maintainers will do their best to explain their reasoning.
 
-If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started](https://github.com/facebook/react-native/wiki/Pull-Requests#getting-ready-to-submit-your-first-pull-request). For more detailed information on how pull requests are handled, see the [Pull Requests wiki](https://github.com/facebook/react-native/wiki/Pull-Requests).
+If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started](https://github.com/facebook/react-native/wiki/How-to-Open-a-Pull-Request). For more detailed information on how pull requests are handled, see the [Pull Requests wiki](https://github.com/facebook/react-native/wiki/Managing-Pull-Requests).
 
 ### Contributor License Agreement
 

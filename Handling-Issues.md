@@ -1,1 +1,0 @@
-See [Issues](https://github.com/facebook/react-native/wiki/Issues)

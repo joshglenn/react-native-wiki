@@ -6,7 +6,7 @@
 
 This section is about testing your changes to React Native as a contributor. If you haven't yet, go through the steps to set up your development environment for [building projects with native code][env-setup].
 
-[env-setup]: http://facebook.github.io/react-native/docs/getting-started
+[env-setup]: https://reactnative.dev/docs/environment-setup
 
 
 ### JavaScript Tests
@@ -48,7 +48,7 @@ To run the Android unit tests, invoke the following script from the root of your
 ./scripts/run-android-local-unit-tests.sh
 ```
 
-The Android integration tests, on the other hand, need additional setup. We recommend going through the instructions to [set up your environment for building React Native from source](http://facebook.github.io/react-native/docs/building-from-source#prerequisites).
+The Android integration tests, on the other hand, need additional setup. We recommend going through the instructions to [set up your environment for building React Native from source](https://reactnative.dev/docs/building-from-source#prerequisites).
 
 Once you've done that, you can start the Android emulator using:
 
@@ -138,4 +138,3 @@ If one of these tests fail, you'll need someone at Facebook to take a look. Sinc
 > **Running CI tests locally**
 >
 > Most open source collaborators rely on Circle CI and Appveyor to see the results of these tests. If you'd rather verify your changes locally using the same configuration as Circle CI, Circle CI provides a [command line interface](https://circleci.com/docs/2.0/local-cli/) with the ability to run jobs locally.
-
