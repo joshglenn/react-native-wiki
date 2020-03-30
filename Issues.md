@@ -1,1 +1,1 @@
-See [Triaging GitHub Issues](https://github.com/facebook/react-native/wiki/Triaging-GitHub-Issues)
+See [Triaging GitHub Issues](Triaging-GitHub-Issues)

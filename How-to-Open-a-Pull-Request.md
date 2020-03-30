@@ -1,3 +1,8 @@
+* [Prologue: Getting Ready](#prologue-getting-ready)
+* [Chapter I: Welcome to Open Source](#chapter-i-welcome-to-open-source)
+* [Chapter II: Implementing your Changes](#chapter-ii-implementing-your-changes)
+* [Chapter III: Proposing your Changes](#chapter-iii-proposing-your-changes)
+
 # Getting Ready to Submit Your First Pull Request
 
 These instructions provide the step-by-step process to set up your machine to make contributions to the core React Native repository, and create your first pull request.
@@ -6,7 +11,7 @@ These instructions provide the step-by-step process to set up your machine to ma
 
 You will need a few tools and dependencies in order to build and develop for React Native. These are covered as part of the [Environment Setup](https://reactnative.dev/docs/environment-setup) guide under the "Building Projects with Native Code" section.
 
-In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)](https://github.com/facebook/react-native/wiki/Contributor-License-Agreement). You only need to do this once to work on any of Facebook's open source projects. It only takes a minute so you can do it while you wait for your dependencies to install.
+In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)](Contributor-License-Agreement). You only need to do this once to work on any of Facebook's open source projects. It only takes a minute so you can do it while you wait for your dependencies to install.
 
 ## Chapter I: Welcome to Open Source
 
@@ -49,7 +54,7 @@ You can now make any changes deemed necessary using your code editor of choice. 
 
 ### 2. Test your changes
 
-Make sure your changes are correct and do not introduce any test failures. You can learn more in [Running and Writing Tests](https://github.com/facebook/react-native/wiki/Tests).
+Make sure your changes are correct and do not introduce any test failures. You can learn more in [Running and Writing Tests](Tests).
 
 ### 3. Lint your code
 
@@ -57,7 +62,7 @@ We understand it can take a while to ramp up and get a sense of the style follow
 
 For example, we use [Prettier](https://prettier.io/) to format our JavaScript code. This saves you time and energy as you can let Prettier fix up any formatting issues automatically through its editor integrations, or by manually running `npm run prettier`. We also use a linter to catch styling issues that may exist in your code. You can check the status of your code styling by simply running `npm run lint`.
 
-To learn more about coding conventions, refer to the [Coding Style guide](https://github.com/facebook/react-native/wiki/How-to-Contribute-Code#coding-style).
+To learn more about coding conventions, refer to the [Coding Style guide](How-to-Contribute-Code#coding-style).
 
 ### 4. View your changes
 
@@ -107,7 +112,7 @@ Visit the provided URL to proceed to the next step.
 You are almost there! The next step is to fill out the pull request. Use a descriptive title that is not too long. Then, make sure to fill out all of the fields provided by the default pull request template:
 
 * **Summary:** Use this field to provide your motivation for sending this pull request. What are you fixing?
-* **[Changelog](https://github.com/facebook/react-native/wiki/Changelog):** Help release maintainers write release notes by providing a short description of what will be changed should the pull request get merged.
+* **[Changelog](Changelog):** Help release maintainers write release notes by providing a short description of what will be changed should the pull request get merged.
 * **Test Plan:** Let reviewers know how you tested your changes. Did you consider any edge cases? Which steps did you follow to make sure your changes have the desired effect? See [What is a Test Plan?](https://medium.com/@martinkonicek/what-is-a-test-plan-8bfc840ec171) to learn more.
 
 ### 4. Review and address feedback

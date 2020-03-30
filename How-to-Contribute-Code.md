@@ -1,3 +1,12 @@
+* [Prerequisites](#prerequisites)
+  * [Android](#android)
+  * [iOS](#ios)
+* [Development Workflow](#development-workflow)
+* [Testing your Changes](#testing-your-changes)
+* [Coding Style](#coding-style)
+* [Sending a Pull Request](#sending-a-pull-request)
+* [License](#license)
+
 Thank you for your interest in contributing to React Native! From commenting on and triaging issues, to reviewing and sending PRs, [all contributions are welcome](https://github.com/facebook/react-native/blob/master/CONTRIBUTING.md). In this document, we'll cover the steps to contributing code to React Native.
 
 If you are eager to start contributing code right away, we have a list of [good first issues](https://github.com/facebook/react-native/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. Issues labeled [`help wanted`](https://github.com/facebook/react-native/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22help+wanted+%3Aoctocat%3A%22+sort%3Aupdated-desc+) are good issues to submit a PR for.
@@ -79,7 +88,7 @@ Then, you can run several commands:
 
 Tests help us prevent regressions from being introduced to the codebase. We recommend running `yarn test` or the platform-specific scripts above to make sure you don't introduce any regressions as you work on your change.
 
-The GitHub repository is [continuously tested](Tests#continuous-testing) using Circle and Appveyor, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/master) and pull requests. You can learn more about running and writing tests in the [Tests wiki](https://github.com/facebook/react-native/wiki/Tests).
+The GitHub repository is [continuously tested](Tests#continuous-testing) using Circle and Appveyor, the results of which are available through the Checks functionality on [commits](https://github.com/facebook/react-native/commits/master) and pull requests. You can learn more about running and writing tests in the [Tests wiki](Tests).
 
 ## Coding Style
 
@@ -118,11 +127,11 @@ Code-level contributions to React Native generally come in the form of [a pull r
 
 If all goes well, your pull request will be merged. If it is not merged, maintainers will do their best to explain their reasoning.
 
-If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started](https://github.com/facebook/react-native/wiki/How-to-Open-a-Pull-Request). For more detailed information on how pull requests are handled, see the [Pull Requests wiki](https://github.com/facebook/react-native/wiki/Managing-Pull-Requests).
+If this is your first time sending a pull request, we have created a [step-by-step guide to help you get started](How-to-Open-a-Pull-Request). For more detailed information on how pull requests are handled, see the [Pull Requests wiki](Managing-Pull-Requests).
 
 ### Contributor License Agreement
 
-In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)](https://github.com/facebook/react-native/wiki/Contributor-License-Agreement). You only need to do this once to work on any of Facebook's open source projects. It only takes a minute so you can do it while you wait for your dependencies to install.
+In order to accept your pull request, we need you to submit a [Contributor License Agreement (CLA)](Contributor-License-Agreement). You only need to do this once to work on any of Facebook's open source projects. It only takes a minute so you can do it while you wait for your dependencies to install.
 
 ## License
 

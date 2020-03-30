@@ -1,4 +1,9 @@
-Pull Requests need to be reviewed and approved using GitHub's review feature before they can be merged. While anyone has the ability to review and approve a pull request, we typically only consider a pull request ready to be merged when the approval comes from one of the [contributors](https://github.com/facebook/react-native/blob/master/ECOSYSTEM.md).
+* [Reviewing PRs](#reviewing-prs)
+* [How we prioritize PRs](#how-we-prioritize-prs)
+* [How does a PR get merged?](#how-does-a-pr-get-merged)
+* [Bots](#bots)
+* [Pull Request Labels](#pull-request-labels)
+
 
 Reviewing a pull request can take a considerable amount of time. In some cases, the review might require more time to perform than it took someone to write and submit their changes! It's therefore necessary to do some preliminary work to ensure each pull request is in a good state to be reviewed.
 
@@ -9,6 +14,12 @@ A pull request should consist of three main sections:
 - A test plan. This might be the most important part of your pull request. A test plan should be a reproducible step-by-step guide so that a reviewer can verify your change is working as intended. It's also a good idea to attach screenshots or videos for user visible changes.
 
 Any one pull request may require a deeper understanding of some area of React Native that you may not be familiar with. Even if you don't feel like you are the right person to review a pull request, you may still help by adding labels or asking the author for more information.
+
+## Reviewing PRs
+
+Pull Requests need to be reviewed and approved using GitHub's review feature before they can be merged. While anyone has the ability to review and approve a pull request, we typically only consider a pull request ready to be merged when the approval comes from one of the [contributors](https://github.com/facebook/react-native/blob/master/ECOSYSTEM.md).
+
+So you've found a pull request that you feel confident reviewing. Please make use of the GitHub Review feature, and clearly and politely communicate any suggested changes.
 
 Consider starting with pull requests that have been flagged as lacking a changelog or test plan.
 
@@ -24,10 +35,6 @@ A pull request must pass all the tests before it can be merged. They run on ever
   - If you find an issue that seems related to the failure on master, go back to the pull request and thank the author for proposing these changes, and let them know that the test failure may be unrelated to their particular change (do not forget to link back to the CI Test Failure issue, as this will help the author know when they can try running tests again).
   - If you cannot find an existing CI Test Failure issue that describes the problem you've observed on master, please submit a new issue and use the “CI Test Failure” label to let others know that master is broken (see [this issue](https://github.com/facebook/react-native/issues/23108) for an example).
 
-## Reviewing PRs
-
-So you've found a pull request that you feel confident reviewing. Please make use of the GitHub Review feature, and clearly and politely communicate any suggested changes.
-
 ## How we prioritize PRs
 
 Members of the React Native team at Facebook aim to review pull requests quickly and most PRs will get a response within a week.
@@ -42,7 +49,7 @@ Facebook employees are using a custom browser extension for GitHub that can impo
 
 ## Bots
 
-As you review and work on pull requests, you might encounter comments left by a handful of GitHub bot accounts. These bots have been set up to aid in the pull request review process. See the [Bots Reference](https://github.com/facebook/react-native/wiki/Bots) to learn more.
+As you review and work on pull requests, you might encounter comments left by a handful of GitHub bot accounts. These bots have been set up to aid in the pull request review process. See the [Bots Reference](Bots) to learn more.
 
 ## Pull Request Labels
 
