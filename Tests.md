@@ -138,3 +138,15 @@ If one of these tests fail, you'll need someone at Facebook to take a look. Sinc
 > **Running CI tests locally**
 >
 > Most open source collaborators rely on Circle CI and Appveyor to see the results of these tests. If you'd rather verify your changes locally using the same configuration as Circle CI, Circle CI provides a [command line interface](https://circleci.com/docs/2.0/local-cli/) with the ability to run jobs locally.
+
+### F.A.Q.
+
+#### How do I upgrade the Xcode version used in CI tests?
+
+When upgrading to a new version of Xcode, first make sure it is [supported by Circle CI](https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions). You will also need to update the test environment config to make sure tests run on an iOS Simulator that comes installed in the Circle CI machine. This can also be found in [Circle CI's Xcode version reference](https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions) by clicking the desired version and looking under Runtimes.
+
+You can then edit these two files:
+- `.circleci/config.yml`: Edit the `xcode:` line under 'macos:` (search for `_XCODE_VERSION`)
+- `scripts/.tests.env`: Edit the `IOS_TARGET_OS` envvar to match the desired iOS Runtime.
+
+If you intend to merge this change on GitHub, please make sure to notify a Facebook employee as they'll need to update the value of `_XCODE_VERSION` used in the internal Sandcastle RN OSS iOS test in `react_native_oss.py` when they import your pull request.
