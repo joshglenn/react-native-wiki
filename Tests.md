@@ -28,13 +28,19 @@ npm run lint
 
 ### iOS Tests
 
-To run the iOS tests, invoke the following script from the root of your React Native checkout:
+Start off by running `pod install` inside the `RNTester/` directory. This will set up your native dependencies and create a `RNTesterPods` Xcode workspace.
+
+Then, go back to the root of your React Native checkout and run `yarn` followed by `yarn start`. This will set up your JavaScript dependencies.
+
+At this point, you can run iOS tests by invoking the following script from the root of your React Native checkout:
 
 ```bash
-./scripts/objc-test-ios.sh test
+./scripts/objc-test.sh test
 ```
 
-You can also open the Xcode project at `RNTester/RNTester.xcodeproj` and run tests locally by pressing Command + U.
+You can also use Xcode to run iOS tests. Open `RNTester/RNTesterPods.xcworkspace` and run tests locally by pressing Command + U or selecting `Product` then `Test` from the menubar.
+
+Xcode allows running individual tests through its Test Navigator (Command + 6).
 
 ### Android Tests
 
